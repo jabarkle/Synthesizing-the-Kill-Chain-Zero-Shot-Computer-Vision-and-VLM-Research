@@ -1,0 +1,5 @@
+Model,Parameters,Correct,Total,Overall Accuracy (%),IFV Correct,IFV Total,IFV Accuracy (%),MBT Correct,MBT Total,MBT Accuracy (%),Mean Time (s),Std Dev (s),Min Time (s),Max Time (s)
+qwen3-vl,4B,17,20,85.0,8,10,80.0,9,10,90.0,7.933,6.673,4.394,33.091
+qwen3-vl,8B,18,20,90.0,10,10,100.0,8,10,80.0,13.096,3.046,9.944,20.025
+gemma3,4B,11,20,55.0,5,10,50.0,6,10,60.0,2.028,0.088,1.888,2.26
+gemma3,12B,14,20,70.0,10,10,100.0,4,10,40.0,4.853,0.472,4.108,5.7

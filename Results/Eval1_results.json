@@ -1,0 +1,781 @@
+{
+  "evaluation": "Eval1_FalsePositiveFiltering",
+  "timestamp": "2026-01-22T22:32:06.801711",
+  "prompt": "A zero shot object detector has identified a military tank in this image. Confirm or Deny if the image shown is a Military Tank.\n\nYou must respond with ONLY a JSON object in this exact format:\n{\n    \"answer\": \"CONFIRM\" or \"DENY\",\n    \"reasoning\": \"Brief explanation of your decision\"\n}\n\nDo not include any other text outside the JSON object.",
+  "expected_answer": "DENY",
+  "total_images": 15,
+  "models": {
+    "qwen3-vl:4b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a yellow excavator, a construction vehicle, not a military tank. There are no tank features present (e.g., turret, cannon, armored body typical of tanks).\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a yellow excavator, a construction vehicle, not a military tank. There are no tank features present (e.g., turret, cannon, armored body typical of tanks)."
+          },
+          "inference_time_sec": 4.168,
+          "vram_usage_mb": 5215,
+          "image_name": "Construction1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Construction1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a yellow excavator, a construction vehicle, not a military tank. Military tanks have distinct features like a turret, armored hull, and are designed for combat, which are not present here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a yellow excavator, a construction vehicle, not a military tank. Military tanks have distinct features like a turret, armored hull, and are designed for combat, which are not present here."
+          },
+          "inference_time_sec": 4.529,
+          "vram_usage_mb": 5215,
+          "image_name": "Construction2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Construction2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image is an armored personnel carrier (APC) or modified military vehicle, not a tank. Tanks are characterized by a large turret and distinct armored structure, which this vehicle does not exhibit.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image is an armored personnel carrier (APC) or modified military vehicle, not a tank. Tanks are characterized by a large turret and distinct armored structure, which this vehicle does not exhibit."
+          },
+          "inference_time_sec": 4.62,
+          "vram_usage_mb": 5215,
+          "image_name": "Jeep1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object in the image is an armored vehicle, but it lacks the defining features of a military tank, such as a large turret, heavy armor, and the typical tank shape. It appears to be a lighter armored vehicle (e.g., similar to a modified Humvee or scout vehicle).\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object in the image is an armored vehicle, but it lacks the defining features of a military tank, such as a large turret, heavy armor, and the typical tank shape. It appears to be a lighter armored vehicle (e.g., similar to a modified Humvee or scout vehicle)."
+          },
+          "inference_time_sec": 4.998,
+          "vram_usage_mb": 5215,
+          "image_name": "Jeep2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object in the image is a light armored military vehicle (similar to an armored personnel carrier or utility vehicle), not a tank. Tanks are characterized by their larger size, prominent turret, and heavy armor, which this vehicle does not exhibit.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object in the image is a light armored military vehicle (similar to an armored personnel carrier or utility vehicle), not a tank. Tanks are characterized by their larger size, prominent turret, and heavy armor, which this vehicle does not exhibit."
+          },
+          "inference_time_sec": 4.996,
+          "vram_usage_mb": 5215,
+          "image_name": "Jeep3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep3.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object in the image is a military truck (with a covered cargo bed and large tires), not a military tank. Tanks have distinct features like a turret,\u70ae\u5854, and a different hull design, which are absent here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object in the image is a military truck (with a covered cargo bed and large tires), not a military tank. Tanks have distinct features like a turret,\u70ae\u5854, and a different hull design, which are absent here."
+          },
+          "inference_time_sec": 4.491,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image depicts a military-style truck, not a tank. Tanks have distinct features like a turret and thick armor, which are absent here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image depicts a military-style truck, not a tank. Tanks have distinct features like a turret and thick armor, which are absent here."
+          },
+          "inference_time_sec": 3.924,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck10.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military truck, not a tank. Tanks have distinct features like tracks, turrets, and a different overall structure, which are not present here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military truck, not a tank. Tanks have distinct features like tracks, turrets, and a different overall structure, which are not present here."
+          },
+          "inference_time_sec": 4.057,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a dump truck, containers, and other miscellaneous equipment, but no military tank is present. Military tanks have distinct features like treads and a turret, which are not visible in this scene.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a dump truck, containers, and other miscellaneous equipment, but no military tank is present. Military tanks have distinct features like treads and a turret, which are not visible in this scene."
+          },
+          "inference_time_sec": 4.683,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck3.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image contains a truck and other industrial elements, but no military tank is present.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image contains a truck and other industrial elements, but no military tank is present."
+          },
+          "inference_time_sec": 3.728,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck4.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a truck with a cylindrical tank (likely for liquid transport) on railway tracks, not a military tank. Military tanks are armored vehicles with turrets and tracks, which are not present here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a truck with a cylindrical tank (likely for liquid transport) on railway tracks, not a military tank. Military tanks are armored vehicles with turrets and tracks, which are not present here."
+          },
+          "inference_time_sec": 4.726,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck5.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a dump truck, not a military tank. There are no tank-like features (e.g., turret, cannon, armored structure) present.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a dump truck, not a military tank. There are no tank-like features (e.g., turret, cannon, armored structure) present."
+          },
+          "inference_time_sec": 4.425,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck6.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image contains military trucks, but no military tank is present.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image contains military trucks, but no military tank is present."
+          },
+          "inference_time_sec": 3.646,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck7.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a covered military-style truck, not a tank. Tanks have distinct features like treads and a turret, which are absent here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a covered military-style truck, not a tank. Tanks have distinct features like treads and a turret, which are absent here."
+          },
+          "inference_time_sec": 4.097,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck8.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows two military-style trucks, not tanks. Tanks have distinct features like turrets and heavy armor, which are absent here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows two military-style trucks, not tanks. Tanks have distinct features like turrets and heavy armor, which are absent here."
+          },
+          "inference_time_sec": 4.203,
+          "vram_usage_mb": 5215,
+          "image_name": "Truck9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck9.png"
+        }
+      ],
+      "summary": {
+        "total_images": 15,
+        "successful_inferences": 15,
+        "correct_answers": 15,
+        "accuracy_percent": 100.0,
+        "mean_inference_time_sec": 4.353,
+        "min_inference_time_sec": 3.646,
+        "max_inference_time_sec": 4.998
+      }
+    },
+    "qwen3-vl:8b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a yellow excavator (construction vehicle), not a military tank.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a yellow excavator (construction vehicle), not a military tank."
+          },
+          "inference_time_sec": 7.8,
+          "vram_usage_mb": 6193,
+          "image_name": "Construction1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Construction1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows an excavator, a construction vehicle, not a military tank. No tank features (e.g., armor, turret) are present.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows an excavator, a construction vehicle, not a military tank. No tank features (e.g., armor, turret) are present."
+          },
+          "inference_time_sec": 8.82,
+          "vram_usage_mb": 6193,
+          "image_name": "Construction2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Construction2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image is a military truck/armor carrier, not a tank. Tanks have distinct features like a turret and heavy armor, which are absent here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image is a military truck/armor carrier, not a tank. Tanks have distinct features like a turret and heavy armor, which are absent here."
+          },
+          "inference_time_sec": 9.098,
+          "vram_usage_mb": 6193,
+          "image_name": "Jeep1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image has wheels and a truck-like structure, not the characteristic tracks and turret of a military tank.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image has wheels and a truck-like structure, not the characteristic tracks and turret of a military tank."
+          },
+          "inference_time_sec": 9.087,
+          "vram_usage_mb": 6193,
+          "image_name": "Jeep2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object is a modified military vehicle (likely an armored truck or SUV) with no characteristic tank features such as treads, a distinct turret, or a boxy hull designed for tank warfare.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object is a modified military vehicle (likely an armored truck or SUV) with no characteristic tank features such as treads, a distinct turret, or a boxy hull designed for tank warfare."
+          },
+          "inference_time_sec": 8.937,
+          "vram_usage_mb": 6193,
+          "image_name": "Jeep3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep3.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military truck with a covered cargo area, not a military tank. Tanks have distinct features like treads and armor plating, which are absent here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military truck with a covered cargo area, not a military tank. Tanks have distinct features like treads and armor plating, which are absent here."
+          },
+          "inference_time_sec": 8.559,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a large military truck, not a tank. There are no features typical of a tank (e.g., turret, cannon, specific armored hull design).\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a large military truck, not a tank. There are no features typical of a tank (e.g., turret, cannon, specific armored hull design)."
+          },
+          "inference_time_sec": 8.436,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck10.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image is a truck-like military vehicle (e.g., a cargo truck), not a tank, which lacks the characteristic turret and armored hull of a tank.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image is a truck-like military vehicle (e.g., a cargo truck), not a tank, which lacks the characteristic turret and armored hull of a tank."
+          },
+          "inference_time_sec": 9.53,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a dump truck, containers, trees, and other objects, but no military tank is present.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a dump truck, containers, trees, and other objects, but no military tank is present."
+          },
+          "inference_time_sec": 8.091,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck3.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a truck, not a military tank. The vehicle has a cab and open bed typical of a truck, with no tank-like features such as turrets or armored hulls.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a truck, not a military tank. The vehicle has a cab and open bed typical of a truck, with no tank-like features such as turrets or armored hulls."
+          },
+          "inference_time_sec": 8.909,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck4.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military truck with a tanker trailer, not a tank. Tanks have distinct treads and hull structures, which are not present here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military truck with a tanker trailer, not a tank. Tanks have distinct treads and hull structures, which are not present here."
+          },
+          "inference_time_sec": 8.279,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck5.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image clearly shows a dump truck, not a military tank. No tank is present in the scene.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image clearly shows a dump truck, not a military tank. No tank is present in the scene."
+          },
+          "inference_time_sec": 8.011,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck6.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows military trucks, not a military tank. There are no tanks present in the scene.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows military trucks, not a military tank. There are no tanks present in the scene."
+          },
+          "inference_time_sec": 7.726,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck7.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object in the image is a military truck with a canvas cover, not a tank. Tanks typically have distinct features like turrets and armored hulls, which are absent here.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object in the image is a military truck with a canvas cover, not a tank. Tanks typically have distinct features like turrets and armored hulls, which are absent here."
+          },
+          "inference_time_sec": 8.931,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck8.png"
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows two trucks and industrial infrastructure, with no military tank present.\"\n}",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows two trucks and industrial infrastructure, with no military tank present."
+          },
+          "inference_time_sec": 8.19,
+          "vram_usage_mb": 6193,
+          "image_name": "Truck9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck9.png"
+        }
+      ],
+      "summary": {
+        "total_images": 15,
+        "successful_inferences": 15,
+        "correct_answers": 15,
+        "accuracy_percent": 100.0,
+        "mean_inference_time_sec": 8.56,
+        "min_inference_time_sec": 7.726,
+        "max_inference_time_sec": 9.53
+      }
+    },
+    "gemma3:4b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a construction excavator, not a military tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a construction excavator, not a military tank."
+          },
+          "inference_time_sec": 1.871,
+          "vram_usage_mb": 4713,
+          "image_name": "Construction1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Construction1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a construction excavator, not a military tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a construction excavator, not a military tank."
+          },
+          "inference_time_sec": 1.846,
+          "vram_usage_mb": 4713,
+          "image_name": "Construction2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Construction2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object detector identified a military tank, however, the image depicts a military vehicle, but it is not a tank. It is a military transport vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object detector identified a military tank, however, the image depicts a military vehicle, but it is not a tank. It is a military transport vehicle."
+          },
+          "inference_time_sec": 2.157,
+          "vram_usage_mb": 4713,
+          "image_name": "Jeep1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military vehicle, but it is not a tank. It appears to be an armored personnel carrier (APC), which is a different type of vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military vehicle, but it is not a tank. It appears to be an armored personnel carrier (APC), which is a different type of vehicle."
+          },
+          "inference_time_sec": 2.167,
+          "vram_usage_mb": 4713,
+          "image_name": "Jeep2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"CONFIRM\",\n    \"reasoning\": \"The object detector identified a vehicle resembling a military tank, and based on the image, it appears to be a vehicle with a similar shape and color, consistent with a military tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "CONFIRM",
+            "reasoning": "The object detector identified a vehicle resembling a military tank, and based on the image, it appears to be a vehicle with a similar shape and color, consistent with a military tank."
+          },
+          "inference_time_sec": 2.169,
+          "vram_usage_mb": 4713,
+          "image_name": "Jeep3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep3.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military tank. However, the image does not contain a military tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military tank. However, the image does not contain a military tank."
+          },
+          "inference_time_sec": 1.922,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The detected object is a truck, not a military tank. The image shows a military transport truck, not a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The detected object is a truck, not a military tank. The image shows a military transport truck, not a tank."
+          },
+          "inference_time_sec": 1.99,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck10.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The detected object is a military truck, not a tank. The image shows a truck with wheels and a military appearance, but does not depict a tank with its characteristic turret and armor.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The detected object is a military truck, not a tank. The image shows a truck with wheels and a military appearance, but does not depict a tank with its characteristic turret and armor."
+          },
+          "inference_time_sec": 2.182,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object detector identified a truck, not a military tank. The object is a standard commercial truck.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object detector identified a truck, not a military tank. The object is a standard commercial truck."
+          },
+          "inference_time_sec": 1.897,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck3.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object detector's identification of a 'military tank' is incorrect. The image shows a military truck, not a tank. Tanks are significantly larger and have distinct features not present in this image.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object detector's identification of a 'military tank' is incorrect. The image shows a military truck, not a tank. Tanks are significantly larger and have distinct features not present in this image."
+          },
+          "inference_time_sec": 2.208,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck4.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"CONFIRM\",\n    \"reasoning\": \"The object detector identified a military truck, which appears to be a fuel truck. Based on its appearance and the context of the image, it is highly likely to be a military truck.\"\n}\n```",
+          "parsed_response": {
+            "answer": "CONFIRM",
+            "reasoning": "The object detector identified a military truck, which appears to be a fuel truck. Based on its appearance and the context of the image, it is highly likely to be a military truck."
+          },
+          "inference_time_sec": 2.184,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck5.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object detector identified a truck, not a military tank. The image shows a standard commercial truck.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object detector identified a truck, not a military tank. The image shows a standard commercial truck."
+          },
+          "inference_time_sec": 1.896,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck6.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military transport truck, not a tank. Tanks have a distinct turret and chassis design which are not present in this image.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military transport truck, not a tank. Tanks have a distinct turret and chassis design which are not present in this image."
+          },
+          "inference_time_sec": 1.998,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck7.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object detector identified a military truck, not a tank. The image shows a large military truck, which is not a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object detector identified a military truck, not a tank. The image shows a large military truck, which is not a tank."
+          },
+          "inference_time_sec": 1.986,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck8.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"CONFIRM\",\n    \"reasoning\": \"The zero-shot detector identified a military tank in the image, which is consistent with the presence of two vehicles resembling military vehicles in the scene.\"\n}\n```",
+          "parsed_response": {
+            "answer": "CONFIRM",
+            "reasoning": "The zero-shot detector identified a military tank in the image, which is consistent with the presence of two vehicles resembling military vehicles in the scene."
+          },
+          "inference_time_sec": 2.02,
+          "vram_usage_mb": 4713,
+          "image_name": "Truck9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck9.png"
+        }
+      ],
+      "summary": {
+        "total_images": 15,
+        "successful_inferences": 15,
+        "correct_answers": 12,
+        "accuracy_percent": 80.0,
+        "mean_inference_time_sec": 2.033,
+        "min_inference_time_sec": 1.846,
+        "max_inference_time_sec": 2.208
+      }
+    },
+    "gemma3:12b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object is a construction vehicle, specifically an excavator, not a military tank. It has the characteristic arm and bucket of an excavator.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object is a construction vehicle, specifically an excavator, not a military tank. It has the characteristic arm and bucket of an excavator."
+          },
+          "inference_time_sec": 4.424,
+          "vram_usage_mb": 7563,
+          "image_name": "Construction1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Construction1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a bulldozer, not a military tank. While it has tracks, the overall structure and features are characteristic of a construction vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a bulldozer, not a military tank. While it has tracks, the overall structure and features are characteristic of a construction vehicle."
+          },
+          "inference_time_sec": 4.46,
+          "vram_usage_mb": 7563,
+          "image_name": "Construction2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Construction2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object is a military vehicle, likely an armored personnel carrier or similar, but it's not a tank. It lacks the primary gun turret characteristic of a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object is a military vehicle, likely an armored personnel carrier or similar, but it's not a tank. It lacks the primary gun turret characteristic of a tank."
+          },
+          "inference_time_sec": 4.8,
+          "vram_usage_mb": 7563,
+          "image_name": "Jeep1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image is a military vehicle, but it is a Humvee, not a tank. It lacks the primary characteristics of a tank, such as a large turret and main gun.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image is a military vehicle, but it is a Humvee, not a tank. It lacks the primary characteristics of a tank, such as a large turret and main gun."
+          },
+          "inference_time_sec": 5.05,
+          "vram_usage_mb": 7563,
+          "image_name": "Jeep2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"CONFIRM\",\n    \"reasoning\": \"The image clearly depicts a military tank with a turret and tracks, consistent with the characteristics of a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "CONFIRM",
+            "reasoning": "The image clearly depicts a military tank with a turret and tracks, consistent with the characteristics of a tank."
+          },
+          "inference_time_sec": 4.076,
+          "vram_usage_mb": 7563,
+          "image_name": "Jeep3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Jeep3.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military vehicle, but it is a wheeled truck, not a tank. Tanks have tracks, not wheels.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military vehicle, but it is a wheeled truck, not a tank. Tanks have tracks, not wheels."
+          },
+          "inference_time_sec": 4.292,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck1.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image appears to be a military truck, not a tank. It has a truck bed and wheels, unlike a tank which has a turret and treads.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image appears to be a military truck, not a tank. It has a truck bed and wheels, unlike a tank which has a turret and treads."
+          },
+          "inference_time_sec": 4.799,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck10.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image appears to be a military transport vehicle (likely a truck), not a tank. It lacks the characteristic turret and main gun of a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image appears to be a military transport vehicle (likely a truck), not a tank. It lacks the characteristic turret and main gun of a tank."
+          },
+          "inference_time_sec": 4.768,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck2.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image appears to be an armored personnel carrier or a military transport vehicle, but it doesn't possess the key characteristics of a main battle tank (turret, main gun).\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image appears to be an armored personnel carrier or a military transport vehicle, but it doesn't possess the key characteristics of a main battle tank (turret, main gun)."
+          },
+          "inference_time_sec": 5.164,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck3.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object identified as a military tank is actually a military truck.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object identified as a military tank is actually a military truck."
+          },
+          "inference_time_sec": 3.713,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck4.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image appears to be a military transport truck, not a tank. It has a truck chassis and a cargo bed, lacking the turret and main gun characteristic of a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image appears to be a military transport truck, not a tank. It has a truck chassis and a cargo bed, lacking the turret and main gun characteristic of a tank."
+          },
+          "inference_time_sec": 5.399,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck5.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military vehicle, specifically a Humvee, but not a tank. It is a wheeled vehicle, not a tracked tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military vehicle, specifically a Humvee, but not a tank. It is a wheeled vehicle, not a tracked tank."
+          },
+          "inference_time_sec": 5.025,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck6.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The image shows a military transport vehicle, likely an armored personnel carrier or a truck, but not a tank. It lacks the characteristic turret and main gun of a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The image shows a military transport vehicle, likely an armored personnel carrier or a truck, but not a tank. It lacks the characteristic turret and main gun of a tank."
+          },
+          "inference_time_sec": 5.533,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck7.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The vehicle in the image is a military transport truck (likely an M1078) and not a tank. It lacks the turret and main gun characteristic of a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The vehicle in the image is a military transport truck (likely an M1078) and not a tank. It lacks the turret and main gun characteristic of a tank."
+          },
+          "inference_time_sec": 5.646,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck8.png"
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DENY\",\n    \"reasoning\": \"The object resembles a military vehicle, but it appears to be a tank transporter rather than a tank itself. It lacks the turret and main gun characteristic of a tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DENY",
+            "reasoning": "The object resembles a military vehicle, but it appears to be a tank transporter rather than a tank itself. It lacks the turret and main gun characteristic of a tank."
+          },
+          "inference_time_sec": 5.491,
+          "vram_usage_mb": 7563,
+          "image_name": "Truck9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/Car Truck Construction/Truck9.png"
+        }
+      ],
+      "summary": {
+        "total_images": 15,
+        "successful_inferences": 15,
+        "correct_answers": 14,
+        "accuracy_percent": 93.3,
+        "mean_inference_time_sec": 4.843,
+        "min_inference_time_sec": 3.713,
+        "max_inference_time_sec": 5.646
+      }
+    }
+  }
+}

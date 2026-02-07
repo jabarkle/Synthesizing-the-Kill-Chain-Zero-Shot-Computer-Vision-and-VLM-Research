@@ -1,0 +1,5 @@
+Model,Parameters,Correct,Total,Accuracy (%),Avg Reasoning (1-10),Mean Time (s),Std Dev (s),Min Time (s),Max Time (s)
+qwen3-vl,4B,5,5,100.0,9.8,45.389,5.348,40.803,54.323
+qwen3-vl,8B,5,5,100.0,9.8,73.207,3.318,69.735,78.049
+gemma3,4B,2,5,40.0,3.2,11.936,0.59,11.29,12.859
+gemma3,12B,1,5,20.0,3.4,31.777,2.162,30.035,35.393

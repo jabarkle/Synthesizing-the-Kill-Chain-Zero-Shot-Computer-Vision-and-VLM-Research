@@ -1,0 +1,5 @@
+Model,Parameters,Correct,Total,Accuracy (%),Mean Time (s),Std Dev (s),Min Time (s),Max Time (s)
+qwen3-vl,4B,15,15,100.0,4.353,0.422,3.646,4.998
+qwen3-vl,8B,15,15,100.0,8.56,0.535,7.726,9.53
+gemma3,4B,12,15,80.0,2.033,0.132,1.846,2.208
+gemma3,12B,14,15,93.3,4.843,0.569,3.713,5.646

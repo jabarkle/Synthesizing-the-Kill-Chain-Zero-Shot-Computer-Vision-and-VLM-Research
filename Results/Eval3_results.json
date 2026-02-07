@@ -1,0 +1,1286 @@
+{
+  "evaluation": "Eval3_VehicleTypeClassification",
+  "timestamp": "2026-01-22T22:52:54.742161",
+  "prompt": "A zero shot object detector has identified a military vehicle in this image. Classify whether this vehicle is an IFV or MBT.\n\nIFV (Infantry Fighting Vehicle): A lightly armored troop carrier, typically with a smaller turret, designed to transport infantry. Examples include Bradley, BMP, Warrior.\nMBT (Main Battle Tank): A heavily armored combat tank with a large main gun turret, designed for direct combat. Examples include M1 Abrams, T-72, Leopard 2.\n\nYou must respond with ONLY a JSON object in this exact format:\n{\n    \"answer\": \"IFV\" or \"MBT\",\n    \"reasoning\": \"Brief explanation of your decision\"\n}\n\nDo not include any other text outside the JSON object.",
+  "total_images": 20,
+  "ifv_count": 10,
+  "mbt_count": 10,
+  "models": {
+    "qwen3-vl:4b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image is a heavily armored tracked combat vehicle with a large main gun turret, characteristic of a Main Battle Tank (MBT). IFVs are lighter, primarily for troop transport with smaller turrets, whereas MBTs are designed for direct combat with heavy armor and a large main gun.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image is a heavily armored tracked combat vehicle with a large main gun turret, characteristic of a Main Battle Tank (MBT). IFVs are lighter, primarily for troop transport with smaller turrets, whereas MBTs are designed for direct combat with heavy armor and a large main gun."
+          },
+          "inference_time_sec": 33.091,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV1.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image is an armored personnel carrier with a relatively smaller turret and lighter armor, consistent with the characteristics of an Infantry Fighting Vehicle (IFV) designed for troop transport, rather than the heavily armored, large main gun turret of a Main Battle Tank (MBT).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image is an armored personnel carrier with a relatively smaller turret and lighter armor, consistent with the characteristics of an Infantry Fighting Vehicle (IFV) designed for troop transport, rather than the heavily armored, large main gun turret of a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 6.236,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV10.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle is a Bradley, which is a lightly armored infantry fighting vehicle (IFV) with a smaller turret designed for troop transport, not the heavy armor and large main gun of a main battle tank (MBT).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle is a Bradley, which is a lightly armored infantry fighting vehicle (IFV) with a smaller turret designed for troop transport, not the heavy armor and large main gun of a main battle tank (MBT)."
+          },
+          "inference_time_sec": 4.755,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV2.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image is a Bradley, which is a lightweight armored troop carrier with a smaller turret and is designed for infantry transport, fitting the definition of an IFV.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image is a Bradley, which is a lightweight armored troop carrier with a smaller turret and is designed for infantry transport, fitting the definition of an IFV."
+          },
+          "inference_time_sec": 4.394,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV3.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image is a lightly armored troop carrier with a smaller turret, consistent with the definition of an IFV (Infantry Fighting Vehicle). It lacks the heavy armor and large main gun turret characteristic of a Main Battle Tank (MBT).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image is a lightly armored troop carrier with a smaller turret, consistent with the definition of an IFV (Infantry Fighting Vehicle). It lacks the heavy armor and large main gun turret characteristic of a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 5.99,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV4.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle is a lightly armored troop carrier with a smaller turret and is designed for transporting infantry, consistent with an Infantry Fighting Vehicle (IFV) such as the Bradley. It lacks the heavy armor and large main gun turret characteristic of a Main Battle Tank (MBT).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle is a lightly armored troop carrier with a smaller turret and is designed for transporting infantry, consistent with an Infantry Fighting Vehicle (IFV) such as the Bradley. It lacks the heavy armor and large main gun turret characteristic of a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 5.857,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV5.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle is a lightly armored troop carrier with a smaller turret, characteristic of an Infantry Fighting Vehicle (IFV) such as the Bradley, rather than a Main Battle Tank (MBT) which features heavy armor and a large main gun turret.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle is a lightly armored troop carrier with a smaller turret, characteristic of an Infantry Fighting Vehicle (IFV) such as the Bradley, rather than a Main Battle Tank (MBT) which features heavy armor and a large main gun turret."
+          },
+          "inference_time_sec": 5.671,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV6.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle is a lightly armored troop carrier with a smaller turret, designed for transporting infantry, which matches the characteristics of an Infantry Fighting Vehicle (IFV).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle is a lightly armored troop carrier with a smaller turret, designed for transporting infantry, which matches the characteristics of an Infantry Fighting Vehicle (IFV)."
+          },
+          "inference_time_sec": 4.42,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV7.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle is a lightly armored troop carrier with a smaller turret, designed for transporting infantry, which aligns with the characteristics of an IFV (e.g., Bradley, BMP series). It lacks the heavy armor, large main gun, and combat-focused design typical of a Main Battle Tank (MBT).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle is a lightly armored troop carrier with a smaller turret, designed for transporting infantry, which aligns with the characteristics of an IFV (e.g., Bradley, BMP series). It lacks the heavy armor, large main gun, and combat-focused design typical of a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 9.097,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV8.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle has heavy armor, a large main gun turret, and is designed for direct combat, which are defining characteristics of a Main Battle Tank (MBT). Examples like T-72 or Leopard 2 match this description, whereas Infantry Fighting Vehicles (IFVs) are lighter, primarily for troop transport with smaller turrets.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle has heavy armor, a large main gun turret, and is designed for direct combat, which are defining characteristics of a Main Battle Tank (MBT). Examples like T-72 or Leopard 2 match this description, whereas Infantry Fighting Vehicles (IFVs) are lighter, primarily for troop transport with smaller turrets."
+          },
+          "inference_time_sec": 16.786,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV9.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle has a large main gun turret, heavy armor, and is designed for direct combat, which are characteristics of a Main Battle Tank (MBT). It does not match the features of an Infantry Fighting Vehicle (IFV), which is a lighter, troop-carrying vehicle with a smaller turret.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle has a large main gun turret, heavy armor, and is designed for direct combat, which are characteristics of a Main Battle Tank (MBT). It does not match the features of an Infantry Fighting Vehicle (IFV), which is a lighter, troop-carrying vehicle with a smaller turret."
+          },
+          "inference_time_sec": 4.703,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT1.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle exhibits features typical of a Main Battle Tank (MBT), including heavy armor, a large main gun turret, and a design optimized for direct combat. It lacks the lighter armor and smaller turret characteristics of an Infantry Fighting Vehicle (IFV).\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle exhibits features typical of a Main Battle Tank (MBT), including heavy armor, a large main gun turret, and a design optimized for direct combat. It lacks the lighter armor and smaller turret characteristics of an Infantry Fighting Vehicle (IFV)."
+          },
+          "inference_time_sec": 5.305,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT10.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image is a large, heavily armored combat tank with a prominent main gun turret, which is characteristic of a Main Battle Tank (MBT). IFVs are lighter, designed for troop transport with smaller turrets, whereas this vehicle's size, armor, and combat-oriented design align with an MBT.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image is a large, heavily armored combat tank with a prominent main gun turret, which is characteristic of a Main Battle Tank (MBT). IFVs are lighter, designed for troop transport with smaller turrets, whereas this vehicle's size, armor, and combat-oriented design align with an MBT."
+          },
+          "inference_time_sec": 5.335,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT2.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image features heavy armor, a large main gun turret, and is designed for direct combat, which are defining characteristics of a Main Battle Tank (MBT). IFVs, such as the Bradley, are lighter with smaller turrets focused on troop transport, whereas this vehicle's size and weaponry align with MBT specifications.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image features heavy armor, a large main gun turret, and is designed for direct combat, which are defining characteristics of a Main Battle Tank (MBT). IFVs, such as the Bradley, are lighter with smaller turrets focused on troop transport, whereas this vehicle's size and weaponry align with MBT specifications."
+          },
+          "inference_time_sec": 9.827,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT3.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image is an Infantry Fighting Vehicle (IFV), as it is a lightly armored troop carrier designed for transporting infantry, with a smaller turret compared to the large main gun turret of a Main Battle Tank (MBT). The vehicle's structure and features align with IFV characteristics, such as the BMP series.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image is an Infantry Fighting Vehicle (IFV), as it is a lightly armored troop carrier designed for transporting infantry, with a smaller turret compared to the large main gun turret of a Main Battle Tank (MBT). The vehicle's structure and features align with IFV characteristics, such as the BMP series."
+          },
+          "inference_time_sec": 11.665,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT4.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle has heavy armor, a large main gun turret, and is designed for direct combat, which are characteristic features of a Main Battle Tank (MBT). It does not match the lighter armored troop carrier design of an Infantry Fighting Vehicle (IFV).\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle has heavy armor, a large main gun turret, and is designed for direct combat, which are characteristic features of a Main Battle Tank (MBT). It does not match the lighter armored troop carrier design of an Infantry Fighting Vehicle (IFV)."
+          },
+          "inference_time_sec": 5.059,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT5.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image is a heavy armored combat vehicle with a large main gun turret, characteristic of a Main Battle Tank (MBT). IFVs are lighter, designed for infantry transport, whereas this vehicle's features (large turret, heavy armor, combat-oriented design) align with MBT classification.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image is a heavy armored combat vehicle with a large main gun turret, characteristic of a Main Battle Tank (MBT). IFVs are lighter, designed for infantry transport, whereas this vehicle's features (large turret, heavy armor, combat-oriented design) align with MBT classification."
+          },
+          "inference_time_sec": 4.545,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT6.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle has a large main gun turret, heavy armor, and is designed for direct combat, which are key characteristics of a Main Battle Tank (MBT). IFVs are lighter, focus on troop transport with smaller turrets, whereas this vehicle's structure and weaponry match MBT criteria.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle has a large main gun turret, heavy armor, and is designed for direct combat, which are key characteristics of a Main Battle Tank (MBT). IFVs are lighter, focus on troop transport with smaller turrets, whereas this vehicle's structure and weaponry match MBT criteria."
+          },
+          "inference_time_sec": 5.569,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT7.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle features a large main gun turret, heavy armor, and the overall design characteristic of a Main Battle Tank (MBT), as opposed to the lighter armored troop carrier design of an Infantry Fighting Vehicle (IFV).\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle features a large main gun turret, heavy armor, and the overall design characteristic of a Main Battle Tank (MBT), as opposed to the lighter armored troop carrier design of an Infantry Fighting Vehicle (IFV)."
+          },
+          "inference_time_sec": 4.904,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT8.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image is a heavily armored combat tank with a large main gun turret, characteristic of a Main Battle Tank (MBT), such as the M1 Abrams or similar models. IFVs are lighter, troop-carrying vehicles with smaller turrets (e.g., Bradley, BMP), which this vehicle is not.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image is a heavily armored combat tank with a large main gun turret, characteristic of a Main Battle Tank (MBT), such as the M1 Abrams or similar models. IFVs are lighter, troop-carrying vehicles with smaller turrets (e.g., Bradley, BMP), which this vehicle is not."
+          },
+          "inference_time_sec": 5.446,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT9.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        }
+      ],
+      "summary": {
+        "total_images": 20,
+        "successful_inferences": 20,
+        "correct_answers": 17,
+        "accuracy_percent": 85.0,
+        "ifv_correct": 8,
+        "ifv_total": 10,
+        "ifv_accuracy_percent": 80.0,
+        "mbt_correct": 9,
+        "mbt_total": 10,
+        "mbt_accuracy_percent": 90.0,
+        "mean_inference_time_sec": 7.933,
+        "min_inference_time_sec": 4.394,
+        "max_inference_time_sec": 33.091
+      }
+    },
+    "qwen3-vl:8b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret and is designed for troop transport with lighter armor, matching characteristics of an Infantry Fighting Vehicle (e.g., Bradley). MBTs typically feature larger, more robust turrets and heavier armor for direct combat.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret and is designed for troop transport with lighter armor, matching characteristics of an Infantry Fighting Vehicle (e.g., Bradley). MBTs typically feature larger, more robust turrets and heavier armor for direct combat."
+          },
+          "inference_time_sec": 10.525,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV1.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret and design typical of an Infantry Fighting Vehicle (IFV), such as the Bradley series, which is structured for transporting infantry rather than the large main gun turret of a Main Battle Tank (MBT).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret and design typical of an Infantry Fighting Vehicle (IFV), such as the Bradley series, which is structured for transporting infantry rather than the large main gun turret of a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 12.1,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV10.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret compared to MBTs, consistent with IFV design for transporting infantry.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret compared to MBTs, consistent with IFV design for transporting infantry."
+          },
+          "inference_time_sec": 18.381,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV2.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret compared to a main battle tank, characteristic of an Infantry Fighting Vehicle designed for troop transport and support rather than heavy direct combat.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret compared to a main battle tank, characteristic of an Infantry Fighting Vehicle designed for troop transport and support rather than heavy direct combat."
+          },
+          "inference_time_sec": 11.438,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV3.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image has a smaller turret and design typical of an Infantry Fighting Vehicle (IFV), such as the BMP series, which is built for troop transport and support rather than the heavy armor and large main gun turret of a Main Battle Tank (MBT).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image has a smaller turret and design typical of an Infantry Fighting Vehicle (IFV), such as the BMP series, which is built for troop transport and support rather than the heavy armor and large main gun turret of a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 13.196,
+          "vram_usage_mb": 6195,
+          "image_name": "IFV4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV4.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret and design consistent with an Infantry Fighting Vehicle (e.g., Bradley), which is intended for troop transport and supporting infantry rather than the heavy armor and main gun turret of a Main Battle Tank.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret and design consistent with an Infantry Fighting Vehicle (e.g., Bradley), which is intended for troop transport and supporting infantry rather than the heavy armor and main gun turret of a Main Battle Tank."
+          },
+          "inference_time_sec": 12.165,
+          "vram_usage_mb": 6195,
+          "image_name": "IFV5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV5.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image has a smaller turret and a design typical of Infantry Fighting Vehicles (e.g., BMP series), distinguishing it from the larger, heavily armored main battle tanks (MBTs) with prominent main gun turrets.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image has a smaller turret and a design typical of Infantry Fighting Vehicles (e.g., BMP series), distinguishing it from the larger, heavily armored main battle tanks (MBTs) with prominent main gun turrets."
+          },
+          "inference_time_sec": 10.72,
+          "vram_usage_mb": 6195,
+          "image_name": "IFV6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV6.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret and design consistent with infantry transport, lacking the large main gun turret typical of MBTs.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret and design consistent with infantry transport, lacking the large main gun turret typical of MBTs."
+          },
+          "inference_time_sec": 14.374,
+          "vram_usage_mb": 6195,
+          "image_name": "IFV7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV7.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle features a smaller turret and design consistent with an Infantry Fighting Vehicle, which is typically lighter and built to transport infantry, unlike the larger, heavily armored main battle tank with a prominent main gun turret.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle features a smaller turret and design consistent with an Infantry Fighting Vehicle, which is typically lighter and built to transport infantry, unlike the larger, heavily armored main battle tank with a prominent main gun turret."
+          },
+          "inference_time_sec": 11.198,
+          "vram_usage_mb": 6195,
+          "image_name": "IFV8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV8.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret and is designed for infantry transport, matching the characteristics of an Infantry Fighting Vehicle (e.g., BMP-style), whereas Main Battle Tanks (MBTs) feature larger main gun turrets and heavier armor for direct combat.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret and is designed for infantry transport, matching the characteristics of an Infantry Fighting Vehicle (e.g., BMP-style), whereas Main Battle Tanks (MBTs) feature larger main gun turrets and heavier armor for direct combat."
+          },
+          "inference_time_sec": 14.53,
+          "vram_usage_mb": 6195,
+          "image_name": "IFV9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV9.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle features a large main gun turret and heavy armor, characteristic of a Main Battle Tank (e.g., M1 Abrams), whereas Infantry Fighting Vehicles typically have smaller turrets and focus on troop transport.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle features a large main gun turret and heavy armor, characteristic of a Main Battle Tank (e.g., M1 Abrams), whereas Infantry Fighting Vehicles typically have smaller turrets and focus on troop transport."
+          },
+          "inference_time_sec": 9.944,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT1.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle features a large main gun turret and robust armor typical of a Main Battle Tank (e.g., T-72), distinguishing it from Infantry Fighting Vehicles (IFVs) which have smaller turrets and focus on infantry transport.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle features a large main gun turret and robust armor typical of a Main Battle Tank (e.g., T-72), distinguishing it from Infantry Fighting Vehicles (IFVs) which have smaller turrets and focus on infantry transport."
+          },
+          "inference_time_sec": 20.025,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT10.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle has a large main gun turret and heavy armor typical of a Main Battle Tank (MBT), distinguishing it from Infantry Fighting Vehicles (IFVs) which have smaller turrets and are primarily designed for troop transport.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle has a large main gun turret and heavy armor typical of a Main Battle Tank (MBT), distinguishing it from Infantry Fighting Vehicles (IFVs) which have smaller turrets and are primarily designed for troop transport."
+          },
+          "inference_time_sec": 10.319,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT2.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle features a large main gun turret and robust armor typical of main battle tanks, distinguishing it from infantry fighting vehicles (IFVs) which have smaller turrets and lighter armor for troop transport.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle features a large main gun turret and robust armor typical of main battle tanks, distinguishing it from infantry fighting vehicles (IFVs) which have smaller turrets and lighter armor for troop transport."
+          },
+          "inference_time_sec": 17.617,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT3.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle has a large main gun turret and heavy armor typical of MBTs, distinguishing it from the smaller turret and lighter armor of IFVs.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle has a large main gun turret and heavy armor typical of MBTs, distinguishing it from the smaller turret and lighter armor of IFVs."
+          },
+          "inference_time_sec": 12.368,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT4.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle features a smaller turret compared to MBTs, characteristic of Infantry Fighting Vehicles designed for troop transport with less armor emphasis than Main Battle Tanks.\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle features a smaller turret compared to MBTs, characteristic of Infantry Fighting Vehicles designed for troop transport with less armor emphasis than Main Battle Tanks."
+          },
+          "inference_time_sec": 17.741,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT5.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle features a large main gun turret and heavy armor typical of Main Battle Tanks, distinguishing it from the smaller turrets and lighter armor of Infantry Fighting Vehicles.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle features a large main gun turret and heavy armor typical of Main Battle Tanks, distinguishing it from the smaller turrets and lighter armor of Infantry Fighting Vehicles."
+          },
+          "inference_time_sec": 10.751,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT6.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle features a large main gun turret and heavy armor, characteristic of a Main Battle Tank (MBT) rather than an Infantry Fighting Vehicle (IFV), which typically has a smaller turret and lighter armor for infantry transport.\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle features a large main gun turret and heavy armor, characteristic of a Main Battle Tank (MBT) rather than an Infantry Fighting Vehicle (IFV), which typically has a smaller turret and lighter armor for infantry transport."
+          },
+          "inference_time_sec": 10.64,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT7.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret and is designed for infantry transport, characteristic of an Infantry Fighting Vehicle (IFV) rather than a heavily armored Main Battle Tank (MBT).\"\n}",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret and is designed for infantry transport, characteristic of an Infantry Fighting Vehicle (IFV) rather than a heavily armored Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 12.893,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT8.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle features a large main gun turret and substantial armor, characteristic of a Main Battle Tank (MBT) rather than a smaller, lighter Infantry Fighting Vehicle (IFV).\"\n}",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle features a large main gun turret and substantial armor, characteristic of a Main Battle Tank (MBT) rather than a smaller, lighter Infantry Fighting Vehicle (IFV)."
+          },
+          "inference_time_sec": 10.991,
+          "vram_usage_mb": 6195,
+          "image_name": "MBT9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT9.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        }
+      ],
+      "summary": {
+        "total_images": 20,
+        "successful_inferences": 20,
+        "correct_answers": 18,
+        "accuracy_percent": 90.0,
+        "ifv_correct": 10,
+        "ifv_total": 10,
+        "ifv_accuracy_percent": 100.0,
+        "mbt_correct": 8,
+        "mbt_total": 10,
+        "mbt_accuracy_percent": 80.0,
+        "mean_inference_time_sec": 13.096,
+        "min_inference_time_sec": 9.944,
+        "max_inference_time_sec": 20.025
+      }
+    },
+    "gemma3:4b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image appears to be an IFV due to its relatively lighter armor and overall design compared to a main battle tank. It has a turret, but it is smaller and more suited for infantry transport.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image appears to be an IFV due to its relatively lighter armor and overall design compared to a main battle tank. It has a turret, but it is smaller and more suited for infantry transport."
+          },
+          "inference_time_sec": 2.26,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV1.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle appears to be a heavily armored tank with a large turret, characteristic of an MBT, rather than a lightly armored IFV.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle appears to be a heavily armored tank with a large turret, characteristic of an MBT, rather than a lightly armored IFV."
+          },
+          "inference_time_sec": 2.002,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV10.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and is likely designed to transport infantry, fitting the description of an IFV.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and is likely designed to transport infantry, fitting the description of an IFV."
+          },
+          "inference_time_sec": 1.958,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV2.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image appears to have a smaller turret and is likely designed to transport infantry, classifying it as an IFV.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image appears to have a smaller turret and is likely designed to transport infantry, classifying it as an IFV."
+          },
+          "inference_time_sec": 1.97,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV3.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image appears to be a main battle tank due to its heavy armor and large turret, characteristics consistent with an MBT.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image appears to be a main battle tank due to its heavy armor and large turret, characteristics consistent with an MBT."
+          },
+          "inference_time_sec": 1.987,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV4.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image appears to have a large turret and a heavily armored design, which are characteristic of a main battle tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image appears to have a large turret and a heavily armored design, which are characteristic of a main battle tank."
+          },
+          "inference_time_sec": 1.969,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV5.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image has a large, prominent turret and appears heavily armored, characteristics of a main battle tank rather than an infantry fighting vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image has a large, prominent turret and appears heavily armored, characteristics of a main battle tank rather than an infantry fighting vehicle."
+          },
+          "inference_time_sec": 2.019,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV6.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and is designed to transport infantry, characteristics of an IFV rather than a heavily armored MBT.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and is designed to transport infantry, characteristics of an IFV rather than a heavily armored MBT."
+          },
+          "inference_time_sec": 1.998,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV7.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image appears to have a smaller turret and is likely an Infantry Fighting Vehicle, given its design and appearance.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image appears to have a smaller turret and is likely an Infantry Fighting Vehicle, given its design and appearance."
+          },
+          "inference_time_sec": 1.963,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV8.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle appears to be a main battle tank due to its large turret and overall armored design.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle appears to be a main battle tank due to its large turret and overall armored design."
+          },
+          "inference_time_sec": 1.888,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV9.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image has a large, prominent turret, characteristic of a main battle tank, rather than the smaller turret typically found on an IFV.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image has a large, prominent turret, characteristic of a main battle tank, rather than the smaller turret typically found on an IFV."
+          },
+          "inference_time_sec": 2.058,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT1.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and a more infantry-focused design, which is characteristic of an IFV rather than a heavily armored MBT.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and a more infantry-focused design, which is characteristic of an IFV rather than a heavily armored MBT."
+          },
+          "inference_time_sec": 2.071,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT10.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and overall design, consistent with an Infantry Fighting Vehicle rather than a heavily armored Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and overall design, consistent with an Infantry Fighting Vehicle rather than a heavily armored Main Battle Tank."
+          },
+          "inference_time_sec": 2.057,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT2.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a relatively small turret and is likely designed to transport infantry, consistent with an IFV.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a relatively small turret and is likely designed to transport infantry, consistent with an IFV."
+          },
+          "inference_time_sec": 1.993,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT3.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle in the image appears to have a relatively small turret and is likely designed to transport infantry, indicating it is an IFV.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle in the image appears to have a relatively small turret and is likely designed to transport infantry, indicating it is an IFV."
+          },
+          "inference_time_sec": 2.056,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT4.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image appears to have a large, prominent turret and a heavily armored design, characteristic of a main battle tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image appears to have a large, prominent turret and a heavily armored design, characteristic of a main battle tank."
+          },
+          "inference_time_sec": 2.04,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT5.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle appears to have a large turret and heavy armor, consistent with a Main Battle Tank design.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle appears to have a large turret and heavy armor, consistent with a Main Battle Tank design."
+          },
+          "inference_time_sec": 1.94,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT6.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image has a large, prominent turret and appears to be heavily armored, consistent with a main battle tank. It lacks the features typically associated with an IFV.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image has a large, prominent turret and appears to be heavily armored, consistent with a main battle tank. It lacks the features typically associated with an IFV."
+          },
+          "inference_time_sec": 2.125,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT7.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle appears to have a large turret and heavily armored design, consistent with a main battle tank rather than an infantry fighting vehicle which typically has a smaller turret and is designed for transporting infantry.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle appears to have a large turret and heavily armored design, consistent with a main battle tank rather than an infantry fighting vehicle which typically has a smaller turret and is designed for transporting infantry."
+          },
+          "inference_time_sec": 2.203,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT8.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle in the image has a large turret and appears to be a heavily armored combat tank, consistent with an MBT.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle in the image has a large turret and appears to be a heavily armored combat tank, consistent with an MBT."
+          },
+          "inference_time_sec": 2.001,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT9.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        }
+      ],
+      "summary": {
+        "total_images": 20,
+        "successful_inferences": 20,
+        "correct_answers": 11,
+        "accuracy_percent": 55.0,
+        "ifv_correct": 5,
+        "ifv_total": 10,
+        "ifv_accuracy_percent": 50.0,
+        "mbt_correct": 6,
+        "mbt_total": 10,
+        "mbt_accuracy_percent": 60.0,
+        "mean_inference_time_sec": 2.028,
+        "min_inference_time_sec": 1.888,
+        "max_inference_time_sec": 2.26
+      }
+    },
+    "gemma3:12b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and a lighter overall profile, characteristics more typical of an Infantry Fighting Vehicle than a Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and a lighter overall profile, characteristics more typical of an Infantry Fighting Vehicle than a Main Battle Tank."
+          },
+          "inference_time_sec": 5.234,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV1.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and a more open top design, consistent with an Infantry Fighting Vehicle (IFV) rather than a Main Battle Tank (MBT).\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and a more open top design, consistent with an Infantry Fighting Vehicle (IFV) rather than a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 5.685,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV10.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle's profile and turret size are consistent with an Infantry Fighting Vehicle (IFV), rather than a Main Battle Tank (MBT).\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle's profile and turret size are consistent with an Infantry Fighting Vehicle (IFV), rather than a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 5.35,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV2.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret and appears to be designed for transporting troops, characteristics of an IFV.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret and appears to be designed for transporting troops, characteristics of an IFV."
+          },
+          "inference_time_sec": 4.837,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV3.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and a more transport-oriented design, characteristic of an Infantry Fighting Vehicle (IFV) rather than a Main Battle Tank (MBT).\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and a more transport-oriented design, characteristic of an Infantry Fighting Vehicle (IFV) rather than a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 5.7,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV4.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a relatively smaller turret and lighter armor compared to a typical MBT, suggesting it's an Infantry Fighting Vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a relatively smaller turret and lighter armor compared to a typical MBT, suggesting it's an Infantry Fighting Vehicle."
+          },
+          "inference_time_sec": 5.211,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV5.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle has a smaller turret and a more lightly armored appearance characteristic of an Infantry Fighting Vehicle (IFV) rather than a Main Battle Tank (MBT).\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle has a smaller turret and a more lightly armored appearance characteristic of an Infantry Fighting Vehicle (IFV) rather than a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 5.401,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV6.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle's profile, turret size, and overall appearance are consistent with an Infantry Fighting Vehicle rather than a Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle's profile, turret size, and overall appearance are consistent with an Infantry Fighting Vehicle rather than a Main Battle Tank."
+          },
+          "inference_time_sec": 5.123,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV7.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a relatively small turret and lighter armor profile, characteristics more typical of an Infantry Fighting Vehicle than a Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a relatively small turret and lighter armor profile, characteristics more typical of an Infantry Fighting Vehicle than a Main Battle Tank."
+          },
+          "inference_time_sec": 4.926,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV8.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle's silhouette and turret size are consistent with an Infantry Fighting Vehicle (IFV), rather than a Main Battle Tank (MBT).\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle's silhouette and turret size are consistent with an Infantry Fighting Vehicle (IFV), rather than a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 4.634,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV9.png",
+          "expected_answer": "IFV",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle appears to have a large main gun turret and heavy armor, characteristics of a Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle appears to have a large main gun turret and heavy armor, characteristics of a Main Battle Tank."
+          },
+          "inference_time_sec": 4.108,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT1.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and a lighter overall profile, characteristic of an Infantry Fighting Vehicle (IFV) rather than a Main Battle Tank (MBT).\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and a lighter overall profile, characteristic of an Infantry Fighting Vehicle (IFV) rather than a Main Battle Tank (MBT)."
+          },
+          "inference_time_sec": 4.847,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT10.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a smaller turret and a more streamlined profile, characteristic of an Infantry Fighting Vehicle rather than a Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a smaller turret and a more streamlined profile, characteristic of an Infantry Fighting Vehicle rather than a Main Battle Tank."
+          },
+          "inference_time_sec": 4.691,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT2.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle's profile suggests a lighter build and turret size characteristic of an Infantry Fighting Vehicle rather than a Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle's profile suggests a lighter build and turret size characteristic of an Infantry Fighting Vehicle rather than a Main Battle Tank."
+          },
+          "inference_time_sec": 4.577,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT3.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle's profile and turret size suggest it is an infantry fighting vehicle (IFV), rather than a main battle tank (MBT).\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle's profile and turret size suggest it is an infantry fighting vehicle (IFV), rather than a main battle tank (MBT)."
+          },
+          "inference_time_sec": 4.654,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT4.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle's size, turret shape, and overall profile suggest a main battle tank rather than an infantry fighting vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle's size, turret shape, and overall profile suggest a main battle tank rather than an infantry fighting vehicle."
+          },
+          "inference_time_sec": 4.328,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT5.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle appears to have a relatively small turret and lighter armor, consistent with an Infantry Fighting Vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle appears to have a relatively small turret and lighter armor, consistent with an Infantry Fighting Vehicle."
+          },
+          "inference_time_sec": 4.171,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT6.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"IFV\",\n    \"reasoning\": \"The vehicle's profile suggests a lighter build and smaller turret, characteristic of an Infantry Fighting Vehicle rather than a Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "IFV",
+            "reasoning": "The vehicle's profile suggests a lighter build and smaller turret, characteristic of an Infantry Fighting Vehicle rather than a Main Battle Tank."
+          },
+          "inference_time_sec": 4.545,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT7.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle's size, turret configuration, and overall silhouette are characteristic of a Main Battle Tank (MBT), not an Infantry Fighting Vehicle (IFV).\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle's size, turret configuration, and overall silhouette are characteristic of a Main Battle Tank (MBT), not an Infantry Fighting Vehicle (IFV)."
+          },
+          "inference_time_sec": 4.775,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT8.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"MBT\",\n    \"reasoning\": \"The vehicle appears to have a large turret and a heavy armored profile, characteristic of a Main Battle Tank.\"\n}\n```",
+          "parsed_response": {
+            "answer": "MBT",
+            "reasoning": "The vehicle appears to have a large turret and a heavy armored profile, characteristic of a Main Battle Tank."
+          },
+          "inference_time_sec": 4.272,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT9.png",
+          "expected_answer": "MBT",
+          "category": "MBT",
+          "is_correct": true
+        }
+      ],
+      "summary": {
+        "total_images": 20,
+        "successful_inferences": 20,
+        "correct_answers": 14,
+        "accuracy_percent": 70.0,
+        "ifv_correct": 10,
+        "ifv_total": 10,
+        "ifv_accuracy_percent": 100.0,
+        "mbt_correct": 4,
+        "mbt_total": 10,
+        "mbt_accuracy_percent": 40.0,
+        "mean_inference_time_sec": 4.853,
+        "min_inference_time_sec": 4.108,
+        "max_inference_time_sec": 5.7
+      }
+    }
+  }
+}

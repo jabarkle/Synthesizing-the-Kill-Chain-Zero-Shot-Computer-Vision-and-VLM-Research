@@ -1,0 +1,5 @@
+Model,Parameters,Correct,Total,Overall Accuracy (%),Destroyed Correct,Destroyed Total,Destroyed Accuracy (%),Operational Correct,Operational Total,Operational Accuracy (%),Mean Time (s),Std Dev (s),Min Time (s),Max Time (s)
+qwen3-vl,4B,39,40,97.5,19,20,95.0,20,20,100.0,4.716,1.831,3.589,14.191
+qwen3-vl,8B,38,40,95.0,18,20,90.0,20,20,100.0,10.835,8.119,7.532,57.363
+gemma3,4B,19,40,47.5,16,20,80.0,3,20,15.0,1.888,0.054,1.773,1.987
+gemma3,12B,28,40,70.0,20,20,100.0,8,20,40.0,4.61,0.395,3.929,5.646

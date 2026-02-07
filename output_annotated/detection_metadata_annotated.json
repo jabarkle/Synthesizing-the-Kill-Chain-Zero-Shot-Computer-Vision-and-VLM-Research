@@ -1,0 +1,1798 @@
+{
+  "MBT": [
+    {
+      "video_name": "MBT1.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT1.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT1.png",
+      "highest_confidence": 0.9091781973838806,
+      "frame_number": 180,
+      "timestamp": 6.0,
+      "detections": {
+        "boxes": [
+          [
+            600.9841918945312,
+            204.0605010986328,
+            1336.76171875,
+            494.4334716796875
+          ]
+        ],
+        "scores": [
+          0.9091781973838806
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            313,
+            188,
+            696,
+            457
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT10.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT10.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT10.png",
+      "highest_confidence": 0.9314021468162537,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            637.0692749023438,
+            364.265869140625,
+            1212.65625,
+            605.2385864257812
+          ]
+        ],
+        "scores": [
+          0.9314021468162537
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            331,
+            337,
+            631,
+            560
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT2.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT2.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT2.png",
+      "highest_confidence": 0.9255357384681702,
+      "frame_number": 20,
+      "timestamp": 0.6666666666666666,
+      "detections": {
+        "boxes": [
+          [
+            781.7722778320312,
+            385.8171691894531,
+            1109.2027587890625,
+            568.02099609375
+          ]
+        ],
+        "scores": [
+          0.9255357384681702
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            407,
+            357,
+            577,
+            525
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT3.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT3.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT3.png",
+      "highest_confidence": 0.9163494110107422,
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            779.245849609375,
+            229.9309844970703,
+            1168.182861328125,
+            568.7777099609375
+          ]
+        ],
+        "scores": [
+          0.9163494110107422
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            405,
+            212,
+            608,
+            526
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT4.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT4.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT4.png",
+      "highest_confidence": 0.9438534379005432,
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            562.0171508789062,
+            297.4024963378906,
+            1317.574951171875,
+            619.0881958007812
+          ]
+        ],
+        "scores": [
+          0.9438534379005432
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            292,
+            275,
+            686,
+            573
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT5.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT5.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT5.png",
+      "highest_confidence": 0.931909441947937,
+      "frame_number": 280,
+      "timestamp": 9.333333333333334,
+      "detections": {
+        "boxes": [
+          [
+            642.0972290039062,
+            243.24880981445312,
+            1218.9085693359375,
+            687.4586791992188
+          ]
+        ],
+        "scores": [
+          0.931909441947937
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            334,
+            225,
+            634,
+            636
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT6.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT6.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT6.png",
+      "highest_confidence": 0.9359658360481262,
+      "frame_number": 80,
+      "timestamp": 2.6666666666666665,
+      "detections": {
+        "boxes": [
+          [
+            630.2533569335938,
+            312.95855712890625,
+            1184.95458984375,
+            562.628662109375
+          ]
+        ],
+        "scores": [
+          0.9359658360481262
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            328,
+            289,
+            617,
+            520
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT7.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT7.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT7.png",
+      "highest_confidence": 0.9252545237541199,
+      "frame_number": 80,
+      "timestamp": 2.6666666666666665,
+      "detections": {
+        "boxes": [
+          [
+            505.71514892578125,
+            379.4270324707031,
+            1157.76220703125,
+            696.7371215820312
+          ]
+        ],
+        "scores": [
+          0.9252545237541199
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            263,
+            351,
+            603,
+            645
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT8.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT8.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT8.png",
+      "highest_confidence": 0.9346561431884766,
+      "frame_number": 300,
+      "timestamp": 10.0,
+      "detections": {
+        "boxes": [
+          [
+            539.820556640625,
+            319.59869384765625,
+            1117.989013671875,
+            627.4763793945312
+          ]
+        ],
+        "scores": [
+          0.9346561431884766
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            281,
+            295,
+            582,
+            580
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "MBT9.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/MBT/MBT9.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/MBT/MBT9.png",
+      "highest_confidence": 0.9272860288619995,
+      "frame_number": 300,
+      "timestamp": 10.0,
+      "detections": {
+        "boxes": [
+          [
+            629.4599609375,
+            421.7930908203125,
+            1255.75244140625,
+            665.6626586914062
+          ]
+        ],
+        "scores": [
+          0.9272860288619995
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            327,
+            390,
+            654,
+            616
+          ]
+        ]
+      }
+    }
+  ],
+  "DestroyedTanks": [
+    {
+      "video_name": "DestroyedTank1.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank1.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank1.png",
+      "highest_confidence": 0.8160287141799927,
+      "frame_number": 40,
+      "timestamp": 1.3333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            638.4285888671875,
+            354.8706970214844,
+            1160.302001953125,
+            673.0122680664062
+          ]
+        ],
+        "scores": [
+          0.8160287141799927
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            332,
+            328,
+            604,
+            623
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank10.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank10.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank10.png",
+      "highest_confidence": 0.8845463991165161,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            741.0049438476562,
+            331.1300354003906,
+            1190.818359375,
+            509.7312316894531
+          ]
+        ],
+        "scores": [
+          0.8845463991165161
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            385,
+            306,
+            620,
+            471
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank11.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank11.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank11.png",
+      "highest_confidence": 0.9242601990699768,
+      "frame_number": 260,
+      "timestamp": 8.666666666666666,
+      "detections": {
+        "boxes": [
+          [
+            766.21728515625,
+            358.49444580078125,
+            1073.29638671875,
+            523.3831787109375
+          ]
+        ],
+        "scores": [
+          0.9242601990699768
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            399,
+            331,
+            559,
+            484
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank12.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank12.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank12.png",
+      "highest_confidence": 0.8183253407478333,
+      "frame_number": 180,
+      "timestamp": 6.0,
+      "detections": {
+        "boxes": [
+          [
+            712.79931640625,
+            275.53057861328125,
+            1028.382568359375,
+            574.4247436523438
+          ]
+        ],
+        "scores": [
+          0.8183253407478333
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            371,
+            255,
+            535,
+            531
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank13.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank13.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank13.png",
+      "highest_confidence": 0.892408549785614,
+      "frame_number": 300,
+      "timestamp": 10.0,
+      "detections": {
+        "boxes": [
+          [
+            456.613037109375,
+            204.43833923339844,
+            882.424560546875,
+            352.37493896484375
+          ]
+        ],
+        "scores": [
+          0.892408549785614
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            237,
+            189,
+            459,
+            326
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank14.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank14.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank14.png",
+      "highest_confidence": 0.6978949308395386,
+      "frame_number": 20,
+      "timestamp": 0.6666666666666666,
+      "detections": {
+        "boxes": [
+          [
+            1023.1376342773438,
+            175.4728546142578,
+            1358.4637451171875,
+            418.5965576171875
+          ],
+          [
+            647.663330078125,
+            260.386962890625,
+            1011.9488525390625,
+            567.3972778320312
+          ]
+        ],
+        "scores": [
+          0.6978949308395386,
+          0.6791956424713135
+        ],
+        "labels": [
+          "military tank",
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            532,
+            162,
+            707,
+            387
+          ],
+          [
+            337,
+            241,
+            527,
+            525
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank15.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank15.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank15.png",
+      "highest_confidence": 0.9308187961578369,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            720.781005859375,
+            351.46856689453125,
+            1033.071044921875,
+            678.375732421875
+          ]
+        ],
+        "scores": [
+          0.9308187961578369
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            375,
+            325,
+            538,
+            628
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank16.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank16.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank16.png",
+      "highest_confidence": 0.8934705257415771,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            716.3701171875,
+            305.0082092285156,
+            1107.9005126953125,
+            608.763671875
+          ]
+        ],
+        "scores": [
+          0.8934705257415771
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            373,
+            282,
+            577,
+            563
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank17.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank17.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank17.png",
+      "highest_confidence": 0.6210596561431885,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            1321.506103515625,
+            274.3177490234375,
+            1530.530029296875,
+            368.6504211425781
+          ]
+        ],
+        "scores": [
+          0.6210596561431885
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            688,
+            253,
+            797,
+            341
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank18.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank18.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank18.png",
+      "highest_confidence": 0.9035818576812744,
+      "frame_number": 200,
+      "timestamp": 6.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            615.3670043945312,
+            339.9522399902344,
+            1094.6435546875,
+            531.1595458984375
+          ]
+        ],
+        "scores": [
+          0.9035818576812744
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            320,
+            314,
+            570,
+            491
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank19.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank19.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank19.png",
+      "highest_confidence": 0.9308937788009644,
+      "frame_number": 80,
+      "timestamp": 2.6666666666666665,
+      "detections": {
+        "boxes": [
+          [
+            767.3311767578125,
+            292.58392333984375,
+            1075.0684814453125,
+            668.3812255859375
+          ]
+        ],
+        "scores": [
+          0.9308937788009644
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            399,
+            270,
+            559,
+            618
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank2.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank2.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank2.png",
+      "highest_confidence": 0.8259312510490417,
+      "frame_number": 260,
+      "timestamp": 8.666666666666666,
+      "detections": {
+        "boxes": [
+          [
+            349.99395751953125,
+            293.84527587890625,
+            1100.07421875,
+            763.9495849609375
+          ]
+        ],
+        "scores": [
+          0.8259312510490417
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            182,
+            272,
+            572,
+            707
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank20.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank20.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank20.png",
+      "highest_confidence": 0.7939977049827576,
+      "frame_number": 220,
+      "timestamp": 7.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            620.1574096679688,
+            237.4476776123047,
+            1146.1427001953125,
+            567.7440795898438
+          ]
+        ],
+        "scores": [
+          0.7939977049827576
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            322,
+            219,
+            596,
+            525
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank3.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank3.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank3.png",
+      "highest_confidence": 0.9337038397789001,
+      "frame_number": 300,
+      "timestamp": 10.0,
+      "detections": {
+        "boxes": [
+          [
+            626.760986328125,
+            322.1737060546875,
+            1128.1737060546875,
+            583.9191284179688
+          ]
+        ],
+        "scores": [
+          0.9337038397789001
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            326,
+            298,
+            587,
+            540
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank4.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank4.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank4.png",
+      "highest_confidence": 0.8615054488182068,
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            693.7242431640625,
+            374.5833740234375,
+            1095.568359375,
+            545.9777221679688
+          ]
+        ],
+        "scores": [
+          0.8615054488182068
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            361,
+            346,
+            570,
+            505
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank5.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank5.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank5.png",
+      "highest_confidence": 0.8775334358215332,
+      "frame_number": 120,
+      "timestamp": 4.0,
+      "detections": {
+        "boxes": [
+          [
+            511.6622619628906,
+            277.2423095703125,
+            1276.8662109375,
+            570.6769409179688
+          ]
+        ],
+        "scores": [
+          0.8775334358215332
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            266,
+            256,
+            665,
+            528
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank6.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank6.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank6.png",
+      "highest_confidence": 0.6527823209762573,
+      "frame_number": 60,
+      "timestamp": 2.0,
+      "detections": {
+        "boxes": [
+          [
+            136.2798309326172,
+            504.5007629394531,
+            599.678955078125,
+            1076.68701171875
+          ]
+        ],
+        "scores": [
+          0.6527823209762573
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            70,
+            467,
+            312,
+            996
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank7.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank7.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank7.png",
+      "highest_confidence": 0.9242599010467529,
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            535.973876953125,
+            335.40716552734375,
+            1063.3397216796875,
+            620.9072875976562
+          ]
+        ],
+        "scores": [
+          0.9242599010467529
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            279,
+            310,
+            553,
+            574
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank8.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank8.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank8.png",
+      "highest_confidence": 0.8869330883026123,
+      "frame_number": 60,
+      "timestamp": 2.0,
+      "detections": {
+        "boxes": [
+          [
+            476.9967041015625,
+            299.00750732421875,
+            1250.6455078125,
+            696.9163818359375
+          ]
+        ],
+        "scores": [
+          0.8869330883026123
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            248,
+            276,
+            651,
+            645
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "DestroyedTank9.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/DestroyedTanks/DestroyedTank9.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/DestroyedTanks/DestroyedTank9.png",
+      "highest_confidence": 0.8703481554985046,
+      "frame_number": 200,
+      "timestamp": 6.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            523.7616577148438,
+            193.89854431152344,
+            968.997802734375,
+            450.81048583984375
+          ]
+        ],
+        "scores": [
+          0.8703481554985046
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            272,
+            179,
+            504,
+            417
+          ]
+        ]
+      }
+    }
+  ],
+  "IFV": [
+    {
+      "video_name": "IFV1.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV1.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV1.png",
+      "highest_confidence": 0.9078125953674316,
+      "frame_number": 60,
+      "timestamp": 2.0,
+      "detections": {
+        "boxes": [
+          [
+            791.2764892578125,
+            261.2345886230469,
+            1148.54638671875,
+            590.5999755859375
+          ]
+        ],
+        "scores": [
+          0.9078125953674316
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            412,
+            241,
+            598,
+            546
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV10.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV10.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV10.png",
+      "highest_confidence": 0.9431347250938416,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            669.839599609375,
+            326.3902587890625,
+            1183.0076904296875,
+            626.78564453125
+          ]
+        ],
+        "scores": [
+          0.9431347250938416
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            348,
+            302,
+            616,
+            580
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV2.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV2.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV2.png",
+      "highest_confidence": 0.9482870697975159,
+      "frame_number": 260,
+      "timestamp": 8.666666666666666,
+      "detections": {
+        "boxes": [
+          [
+            648.00634765625,
+            329.55328369140625,
+            1204.6279296875,
+            709.2303466796875
+          ]
+        ],
+        "scores": [
+          0.9482870697975159
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            337,
+            305,
+            627,
+            656
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV3.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV3.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV3.png",
+      "highest_confidence": 0.9421443939208984,
+      "frame_number": 220,
+      "timestamp": 7.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            728.6026611328125,
+            180.094482421875,
+            1061.1507568359375,
+            437.2997741699219
+          ]
+        ],
+        "scores": [
+          0.9421443939208984
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            379,
+            166,
+            552,
+            404
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV4.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV4.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV4.png",
+      "highest_confidence": 0.9241850972175598,
+      "frame_number": 180,
+      "timestamp": 6.0,
+      "detections": {
+        "boxes": [
+          [
+            595.4262084960938,
+            353.94439697265625,
+            1002.8566284179688,
+            617.7546997070312
+          ]
+        ],
+        "scores": [
+          0.9241850972175598
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            310,
+            327,
+            522,
+            571
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV5.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV5.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV5.png",
+      "highest_confidence": 0.9370869994163513,
+      "frame_number": 220,
+      "timestamp": 7.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            635.0465087890625,
+            209.528564453125,
+            1316.123046875,
+            644.8048706054688
+          ]
+        ],
+        "scores": [
+          0.9370869994163513
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            330,
+            194,
+            685,
+            597
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV6.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV6.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV6.png",
+      "highest_confidence": 0.9306839108467102,
+      "frame_number": 300,
+      "timestamp": 10.0,
+      "detections": {
+        "boxes": [
+          [
+            588.5930786132812,
+            340.4901123046875,
+            1128.1932373046875,
+            668.6213989257812
+          ]
+        ],
+        "scores": [
+          0.9306839108467102
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            306,
+            315,
+            587,
+            619
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV7.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV7.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV7.png",
+      "highest_confidence": 0.9255597591400146,
+      "frame_number": 300,
+      "timestamp": 10.0,
+      "detections": {
+        "boxes": [
+          [
+            571.7202758789062,
+            239.14898681640625,
+            1197.2989501953125,
+            692.401611328125
+          ]
+        ],
+        "scores": [
+          0.9255597591400146
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            297,
+            221,
+            623,
+            641
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV8.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV8.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV8.png",
+      "highest_confidence": 0.9443309307098389,
+      "frame_number": 240,
+      "timestamp": 8.0,
+      "detections": {
+        "boxes": [
+          [
+            652.3731079101562,
+            345.3182678222656,
+            1202.0906982421875,
+            708.39013671875
+          ]
+        ],
+        "scores": [
+          0.9443309307098389
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            339,
+            319,
+            626,
+            655
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "IFV9.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/IFV/IFV9.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/IFV/IFV9.png",
+      "highest_confidence": 0.934392511844635,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            640.93359375,
+            250.0538330078125,
+            1226.714111328125,
+            759.4692993164062
+          ]
+        ],
+        "scores": [
+          0.934392511844635
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            333,
+            231,
+            638,
+            703
+          ]
+        ]
+      }
+    }
+  ],
+  "Car Truck Construction": [
+    {
+      "video_name": "Construction1.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Construction1.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Construction1.png",
+      "highest_confidence": 0.9089417457580566,
+      "frame_number": 200,
+      "timestamp": 6.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            606.3687744140625,
+            229.91258239746094,
+            1179.2958984375,
+            674.1881713867188
+          ]
+        ],
+        "scores": [
+          0.9089417457580566
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            315,
+            212,
+            614,
+            624
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Construction2.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Construction2.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Construction2.png",
+      "highest_confidence": 0.9149967432022095,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            665.2407836914062,
+            250.8986053466797,
+            1218.93017578125,
+            549.6036987304688
+          ]
+        ],
+        "scores": [
+          0.9149967432022095
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            346,
+            232,
+            634,
+            508
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Jeep1.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Jeep1.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Jeep1.png",
+      "highest_confidence": 0.9378615617752075,
+      "frame_number": 280,
+      "timestamp": 9.333333333333334,
+      "detections": {
+        "boxes": [
+          [
+            657.0941162109375,
+            380.46307373046875,
+            1183.4739990234375,
+            678.9661865234375
+          ]
+        ],
+        "scores": [
+          0.9378615617752075
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            342,
+            352,
+            616,
+            628
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Jeep2.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Jeep2.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Jeep2.png",
+      "highest_confidence": 0.9198240637779236,
+      "frame_number": 300,
+      "timestamp": 10.0,
+      "detections": {
+        "boxes": [
+          [
+            821.5930786132812,
+            285.7162170410156,
+            1296.1756591796875,
+            580.7520751953125
+          ]
+        ],
+        "scores": [
+          0.9198240637779236
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            427,
+            264,
+            675,
+            537
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Jeep3.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Jeep3.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Jeep3.png",
+      "highest_confidence": 0.9449146389961243,
+      "frame_number": 280,
+      "timestamp": 9.333333333333334,
+      "detections": {
+        "boxes": [
+          [
+            717.9472045898438,
+            367.5527038574219,
+            1195.451416015625,
+            615.416748046875
+          ]
+        ],
+        "scores": [
+          0.9449146389961243
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            373,
+            340,
+            622,
+            569
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck1.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck1.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck1.png",
+      "highest_confidence": 0.9004066586494446,
+      "frame_number": 200,
+      "timestamp": 6.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            569.634033203125,
+            224.47650146484375,
+            1163.0191650390625,
+            590.5469970703125
+          ]
+        ],
+        "scores": [
+          0.9004066586494446
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            296,
+            207,
+            605,
+            546
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck10.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck10.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck10.png",
+      "highest_confidence": 0.9196803569793701,
+      "frame_number": 220,
+      "timestamp": 7.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            558.5147094726562,
+            250.0480194091797,
+            1254.4503173828125,
+            596.7542114257812
+          ]
+        ],
+        "scores": [
+          0.9196803569793701
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            290,
+            231,
+            653,
+            552
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck2.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck2.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck2.png",
+      "highest_confidence": 0.8831779360771179,
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            657.0969848632812,
+            330.7474670410156,
+            1055.5516357421875,
+            600.7020874023438
+          ]
+        ],
+        "scores": [
+          0.8831779360771179
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            342,
+            306,
+            549,
+            556
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck3.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck3.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck3.png",
+      "highest_confidence": 0.7514194250106812,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            752.4193115234375,
+            262.77154541015625,
+            1071.4324951171875,
+            510.2948913574219
+          ]
+        ],
+        "scores": [
+          0.7514194250106812
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            391,
+            243,
+            558,
+            472
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck4.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck4.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck4.png",
+      "highest_confidence": 0.8778747916221619,
+      "frame_number": 100,
+      "timestamp": 3.3333333333333335,
+      "detections": {
+        "boxes": [
+          [
+            788.1360473632812,
+            265.2403564453125,
+            1204.6717529296875,
+            453.3801574707031
+          ]
+        ],
+        "scores": [
+          0.8778747916221619
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            410,
+            245,
+            627,
+            419
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck5.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck5.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck5.png",
+      "highest_confidence": 0.9288468360900879,
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "detections": {
+        "boxes": [
+          [
+            1039.6251220703125,
+            288.8992004394531,
+            1518.7821044921875,
+            628.9475708007812
+          ]
+        ],
+        "scores": [
+          0.9288468360900879
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            541,
+            267,
+            791,
+            582
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck6.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck6.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck6.png",
+      "highest_confidence": 0.8961101174354553,
+      "frame_number": 180,
+      "timestamp": 6.0,
+      "detections": {
+        "boxes": [
+          [
+            509.73699951171875,
+            347.16314697265625,
+            1127.14208984375,
+            610.7598266601562
+          ]
+        ],
+        "scores": [
+          0.8961101174354553
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            265,
+            321,
+            587,
+            565
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck7.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck7.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck7.png",
+      "highest_confidence": 0.651709794998169,
+      "frame_number": 180,
+      "timestamp": 6.0,
+      "detections": {
+        "boxes": [
+          [
+            223.12637329101562,
+            343.7829284667969,
+            760.29443359375,
+            673.6216430664062
+          ]
+        ],
+        "scores": [
+          0.651709794998169
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            116,
+            318,
+            395,
+            623
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck8.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck8.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck8.png",
+      "highest_confidence": 0.9091897010803223,
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "detections": {
+        "boxes": [
+          [
+            648.0307006835938,
+            365.32366943359375,
+            1118.394287109375,
+            590.0427856445312
+          ]
+        ],
+        "scores": [
+          0.9091897010803223
+        ],
+        "labels": [
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            337,
+            338,
+            582,
+            546
+          ]
+        ]
+      }
+    },
+    {
+      "video_name": "Truck9.MP4",
+      "video_path": "/home/jesse/Desktop/ResearchZeroShotVLM/DataForResearch/Car Truck Construction/Truck9.MP4",
+      "output_image": "/home/jesse/Desktop/ResearchZeroShotVLM/output_annotated/Car Truck Construction/Truck9.png",
+      "highest_confidence": 0.8009002804756165,
+      "frame_number": 100,
+      "timestamp": 3.3333333333333335,
+      "detections": {
+        "boxes": [
+          [
+            608.465576171875,
+            293.7706298828125,
+            768.4910888671875,
+            518.696533203125
+          ],
+          [
+            857.9353637695312,
+            316.2945251464844,
+            998.439453125,
+            506.3205261230469
+          ]
+        ],
+        "scores": [
+          0.8009002804756165,
+          0.7487236261367798
+        ],
+        "labels": [
+          "military tank",
+          "military tank"
+        ],
+        "normalized_boxes": [
+          [
+            316,
+            272,
+            400,
+            480
+          ],
+          [
+            446,
+            292,
+            520,
+            468
+          ]
+        ]
+      }
+    }
+  ]
+}

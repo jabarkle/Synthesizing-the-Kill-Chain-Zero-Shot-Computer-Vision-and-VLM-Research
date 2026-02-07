@@ -1,0 +1,2486 @@
+{
+  "evaluation": "Eval2_DamageAssessment",
+  "timestamp": "2026-01-22T22:37:34.281842",
+  "prompt": "A zero shot object detector has identified a military tank in this image. Assess whether this vehicle is OPERATIONAL or DESTROYED.\n\nDESTROYED: The vehicle is clearly wrecked, burned out, has catastrophic damage, turret blown off, or is obviously non-functional.\nOPERATIONAL: The vehicle appears intact and functional, even if dirty or showing minor wear.\n\nYou must respond with ONLY a JSON object in this exact format:\n{\n    \"answer\": \"OPERATIONAL\" or \"DESTROYED\",\n    \"reasoning\": \"Brief explanation of your decision\"\n}\n\nDo not include any other text outside the JSON object.",
+  "total_images": 40,
+  "destroyed_count": 20,
+  "operational_count": 20,
+  "models": {
+    "qwen3-vl:4b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is surrounded by debris, shows significant structural damage, and appears to be in a wrecked state, indicating it is non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is surrounded by debris, shows significant structural damage, and appears to be in a wrecked state, indicating it is non-functional."
+          },
+          "inference_time_sec": 3.843,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank1.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is engulfed in flames and smoke, indicating it has been severely damaged and is no longer operational.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is engulfed in flames and smoke, indicating it has been severely damaged and is no longer operational."
+          },
+          "inference_time_sec": 3.885,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank10.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has visible flames and smoke, indicating it is burning out, which aligns with the criteria for being destroyed as it is non-functional and clearly damaged.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has visible flames and smoke, indicating it is burning out, which aligns with the criteria for being destroyed as it is non-functional and clearly damaged."
+          },
+          "inference_time_sec": 6.884,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank11.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank11.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, surrounded by debris, with visible signs of being burned out and non-functional, indicating catastrophic damage.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, surrounded by debris, with visible signs of being burned out and non-functional, indicating catastrophic damage."
+          },
+          "inference_time_sec": 4.088,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank12.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank12.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and smoke, indicating it is burned out and non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and smoke, indicating it is burned out and non-functional."
+          },
+          "inference_time_sec": 3.589,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank13.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank13.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank on the left is engulfed in flames with visible fire and smoke, indicating catastrophic damage and non-functionality, meeting the criteria for 'DESTROYED'.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank on the left is engulfed in flames with visible fire and smoke, indicating catastrophic damage and non-functionality, meeting the criteria for 'DESTROYED'."
+          },
+          "inference_time_sec": 8.839,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank14.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank14.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The vehicle is engulfed in flames, emitting thick smoke, and shows severe structural damage, indicating it is non-functional and destroyed.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The vehicle is engulfed in flames, emitting thick smoke, and shows severe structural damage, indicating it is non-functional and destroyed."
+          },
+          "inference_time_sec": 4.105,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank15.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank15.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is emitting thick smoke, appears heavily damaged with visible structural destruction, and lacks signs of being functional or intact.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is emitting thick smoke, appears heavily damaged with visible structural destruction, and lacks signs of being functional or intact."
+          },
+          "inference_time_sec": 3.799,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank16.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank16.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is surrounded by debris, smoke, and fire, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is surrounded by debris, smoke, and fire, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 4.004,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank17.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank17.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is engulfed in flames with visible smoke and sparks, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is engulfed in flames with visible smoke and sparks, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 4.129,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank18.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank18.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. Smoke around the vehicle is likely from movement or combat activity, not destruction.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. Smoke around the vehicle is likely from movement or combat activity, not destruction."
+          },
+          "inference_time_sec": 4.535,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank19.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank19.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank shows severe structural damage, with visible debris scattered around and indications of catastrophic damage, making it non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank shows severe structural damage, with visible debris scattered around and indications of catastrophic damage, making it non-functional."
+          },
+          "inference_time_sec": 4.879,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank2.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is engulfed in flames with visible smoke, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is engulfed in flames with visible smoke, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 3.681,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank20.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank20.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is engulfed in flames, with smoke and fire visible, indicating it is burned out and non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is engulfed in flames, with smoke and fire visible, indicating it is burned out and non-functional."
+          },
+          "inference_time_sec": 3.866,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank3.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is engulfed in flames with significant smoke, indicating it is burned out and non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is engulfed in flames with significant smoke, indicating it is burned out and non-functional."
+          },
+          "inference_time_sec": 3.881,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank4.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is lying on its side with significant structural damage, debris scattered around, and visible signs of burning or fire, indicating it is non-functional and destroyed.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is lying on its side with significant structural damage, debris scattered around, and visible signs of burning or fire, indicating it is non-functional and destroyed."
+          },
+          "inference_time_sec": 3.863,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank5.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is lying on the road with significant damage, surrounded by debris, indicating it is no longer functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is lying on the road with significant damage, surrounded by debris, indicating it is no longer functional."
+          },
+          "inference_time_sec": 7.06,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank6.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is engulfed in flames with significant smoke and debris, indicating catastrophic damage and non-functionality, meeting the criteria for 'DESTROYED'.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is engulfed in flames with significant smoke and debris, indicating catastrophic damage and non-functionality, meeting the criteria for 'DESTROYED'."
+          },
+          "inference_time_sec": 14.191,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank7.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is engulfed in flames with significant smoke, indicating it has been burned out and is non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is engulfed in flames with significant smoke, indicating it has been burned out and is non-functional."
+          },
+          "inference_time_sec": 4.631,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank8.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank shows significant damage, including flames, scattered debris, and visible structural destruction, indicating it is non-functional and wrecked.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank shows significant damage, including flames, scattered debris, and visible structural destruction, indicating it is non-functional and wrecked."
+          },
+          "inference_time_sec": 3.884,
+          "vram_usage_mb": 5213,
+          "image_name": "DestroyedTank9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank9.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It is positioned on the ground but maintains its structural integrity, indicating it is functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It is positioned on the ground but maintains its structural integrity, indicating it is functional."
+          },
+          "inference_time_sec": 4.776,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV1.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle appears intact with no visible signs of catastrophic damage, such as a blown-off turret, significant burn damage, or structural failure. It shows minor dirt and wear consistent with operational use in a field environment.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle appears intact with no visible signs of catastrophic damage, such as a blown-off turret, significant burn damage, or structural failure. It shows minor dirt and wear consistent with operational use in a field environment."
+          },
+          "inference_time_sec": 4.508,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV10.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle appears intact with no visible signs of catastrophic damage, such as a destroyed turret, burns, or structural collapse. It shows minor wear (e.g., dirt) but is functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle appears intact with no visible signs of catastrophic damage, such as a destroyed turret, burns, or structural collapse. It shows minor wear (e.g., dirt) but is functional."
+          },
+          "inference_time_sec": 4.157,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV2.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of damage, such as missing components, fire, or structural failure, indicating it is functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of damage, such as missing components, fire, or structural failure, indicating it is functional."
+          },
+          "inference_time_sec": 4.078,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV3.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It is positioned on the terrain without any indications of being non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It is positioned on the terrain without any indications of being non-functional."
+          },
+          "inference_time_sec": 4.274,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV4.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle is intact with no visible signs of catastrophic damage, such as a blown-off turret, extensive fire, or structural collapse. It appears functional despite being dirty and muddy.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle is intact with no visible signs of catastrophic damage, such as a blown-off turret, extensive fire, or structural collapse. It appears functional despite being dirty and muddy."
+          },
+          "inference_time_sec": 4.016,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV5.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle appears intact with no visible signs of catastrophic damage, missing components, or non-functionality. It is dirty from use but remains structurally sound and operational.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle appears intact with no visible signs of catastrophic damage, missing components, or non-functionality. It is dirty from use but remains structurally sound and operational."
+          },
+          "inference_time_sec": 4.823,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV6.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle appears intact with no visible catastrophic damage, such as a blown-off turret or extensive burning. It is dirty and muddy, which is common in combat scenarios, but it retains its structural integrity and functional components.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle appears intact with no visible catastrophic damage, such as a blown-off turret or extensive burning. It is dirty and muddy, which is common in combat scenarios, but it retains its structural integrity and functional components."
+          },
+          "inference_time_sec": 5.109,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV7.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle appears intact with no visible signs of catastrophic damage, such as a blown-off turret or severe structural issues. It shows minor wear (e.g., dirt), which is common for operational vehicles and does not indicate non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle appears intact with no visible signs of catastrophic damage, such as a blown-off turret or severe structural issues. It shows minor wear (e.g., dirt), which is common for operational vehicles and does not indicate non-functionality."
+          },
+          "inference_time_sec": 4.226,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV8.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, such as a missing turret, burnt components, or structural destruction. It shows minor wear (dust and dirt) typical of a vehicle in use but remains functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, such as a missing turret, burnt components, or structural destruction. It shows minor wear (dust and dirt) typical of a vehicle in use but remains functional."
+          },
+          "inference_time_sec": 4.478,
+          "vram_usage_mb": 5213,
+          "image_name": "IFV9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV9.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, burnt-out state, or severe structural failure. It maintains its structural integrity and functional components, indicating it is operational.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, burnt-out state, or severe structural failure. It maintains its structural integrity and functional components, indicating it is operational."
+          },
+          "inference_time_sec": 4.469,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT1.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It is positioned on a dirt road, suggesting it is functional within the context of the game environment.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It is positioned on a dirt road, suggesting it is functional within the context of the game environment."
+          },
+          "inference_time_sec": 4.018,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT10.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It is positioned on the terrain in a manner consistent with being functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It is positioned on the terrain in a manner consistent with being functional."
+          },
+          "inference_time_sec": 4.421,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT2.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, missing components, or destruction. It maintains its structural integrity and functional appearance.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, missing components, or destruction. It maintains its structural integrity and functional appearance."
+          },
+          "inference_time_sec": 4.063,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT3.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of damage, such as a blown-off turret, catastrophic structural issues, or burning. It is positioned on grassy terrain with intact tracks and a functional-looking hull, indicating it is operational.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of damage, such as a blown-off turret, catastrophic structural issues, or burning. It is positioned on grassy terrain with intact tracks and a functional-looking hull, indicating it is operational."
+          },
+          "inference_time_sec": 4.2,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT4.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It shows minor wear (dirt, mud) typical of operational use in a battlefield environment but remains functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage, such as a blown-off turret, severe burns, or structural collapse. It shows minor wear (dirt, mud) typical of operational use in a battlefield environment but remains functional."
+          },
+          "inference_time_sec": 4.364,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT5.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of damage such as a blown-off turret, extensive burns, or structural collapse. It is positioned on a road, suggesting it is functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of damage such as a blown-off turret, extensive burns, or structural collapse. It is positioned on a road, suggesting it is functional."
+          },
+          "inference_time_sec": 3.893,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT6.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible catastrophic damage, turret is attached, and it shows minor wear but is functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible catastrophic damage, turret is attached, and it shows minor wear but is functional."
+          },
+          "inference_time_sec": 4.102,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT7.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of damage, such as a blown-off turret, fire, or structural collapse. It shows minor dirt and wear consistent with operational use in a field environment.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of damage, such as a blown-off turret, fire, or structural collapse. It shows minor dirt and wear consistent with operational use in a field environment."
+          },
+          "inference_time_sec": 4.288,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT8.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of destruction, such as catastrophic damage, a blown-off turret, or fire. It is positioned in a natural environment, suggesting it is functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of destruction, such as catastrophic damage, a blown-off turret, or fire. It is positioned in a natural environment, suggesting it is functional."
+          },
+          "inference_time_sec": 4.73,
+          "vram_usage_mb": 5213,
+          "image_name": "MBT9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT9.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        }
+      ],
+      "summary": {
+        "total_images": 40,
+        "successful_inferences": 40,
+        "correct_answers": 39,
+        "accuracy_percent": 97.5,
+        "destroyed_correct": 19,
+        "destroyed_total": 20,
+        "destroyed_accuracy_percent": 95.0,
+        "operational_correct": 20,
+        "operational_total": 20,
+        "operational_accuracy_percent": 100.0,
+        "mean_inference_time_sec": 4.716,
+        "min_inference_time_sec": 3.589,
+        "max_inference_time_sec": 14.191
+      }
+    },
+    "qwen3-vl:8b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank shows visible damage including a damaged turret and debris around it, indicating it is not functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank shows visible damage including a damaged turret and debris around it, indicating it is not functional."
+          },
+          "inference_time_sec": 9.895,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank1.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is engulfed in flames and smoke, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is engulfed in flames and smoke, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 7.585,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank10.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 8.368,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank11.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank11.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank exhibits smoke and potential fire, indicating it is burned out or has catastrophic damage, fitting the 'DESTROYED' criteria.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank exhibits smoke and potential fire, indicating it is burned out or has catastrophic damage, fitting the 'DESTROYED' criteria."
+          },
+          "inference_time_sec": 57.363,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank12.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank12.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and smoke, indicating catastrophic damage and being non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and smoke, indicating catastrophic damage and being non-functional."
+          },
+          "inference_time_sec": 8.978,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank13.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank13.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 7.532,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank14.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank14.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The vehicle is on fire with visible flames, smoke, and catastrophic damage indicating it is non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The vehicle is on fire with visible flames, smoke, and catastrophic damage indicating it is non-functional."
+          },
+          "inference_time_sec": 8.806,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank15.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank15.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is emitting dark smoke, indicating fire or severe damage, and its structural integrity appears compromised, consistent with being destroyed.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is emitting dark smoke, indicating fire or severe damage, and its structural integrity appears compromised, consistent with being destroyed."
+          },
+          "inference_time_sec": 8.897,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank16.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank16.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 10.052,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank17.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank17.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and sparks, indicating it is burned out and non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and sparks, indicating it is burned out and non-functional."
+          },
+          "inference_time_sec": 8.16,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank18.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank18.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no catastrophic damage, burned-out sections, or missing critical components; it appears intact despite being in a muddy environment.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no catastrophic damage, burned-out sections, or missing critical components; it appears intact despite being in a muddy environment."
+          },
+          "inference_time_sec": 12.327,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank19.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank19.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank shows significant structural damage, debris around it, and visible signs of catastrophic destruction, indicating it is non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank shows significant structural damage, debris around it, and visible signs of catastrophic destruction, indicating it is non-functional."
+          },
+          "inference_time_sec": 9.184,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank2.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 8.062,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank20.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank20.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 7.991,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank3.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The vehicle is on fire with visible flames and smoke, indicating it is burned out and non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The vehicle is on fire with visible flames and smoke, indicating it is burned out and non-functional."
+          },
+          "inference_time_sec": 9.445,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank4.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank shows visible fire, smoke, and debris around it, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank shows visible fire, smoke, and debris around it, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 9.513,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank5.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank exhibits visible damage, including potential turret destruction and debris around it, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank exhibits visible damage, including potential turret destruction and debris around it, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 10.558,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank6.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears to have smoke but shows no catastrophic damage like a blown-off turret or complete destruction, indicating it may still be functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears to have smoke but shows no catastrophic damage like a blown-off turret or complete destruction, indicating it may still be functional."
+          },
+          "inference_time_sec": 26.921,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank7.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is on fire with visible flames and smoke, indicating catastrophic damage and non-functionality."
+          },
+          "inference_time_sec": 8.721,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank8.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank shows visible flames, extensive damage, and debris surrounding it, indicating catastrophic failure and non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank shows visible flames, extensive damage, and debris surrounding it, indicating catastrophic failure and non-functionality."
+          },
+          "inference_time_sec": 8.375,
+          "vram_usage_mb": 6193,
+          "image_name": "DestroyedTank9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank9.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle shows no signs of catastrophic damage, burns, or structural failure; it appears intact despite potential dirt or wear from the environment.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle shows no signs of catastrophic damage, burns, or structural failure; it appears intact despite potential dirt or wear from the environment."
+          },
+          "inference_time_sec": 10.322,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV1.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle shows no visible catastrophic damage, burns, or structural failures; it appears intact and functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle shows no visible catastrophic damage, burns, or structural failures; it appears intact and functional."
+          },
+          "inference_time_sec": 8.821,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV10.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows minor dirt and wear but no catastrophic damage, blown-off turret, or burn marks, indicating it is intact and functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows minor dirt and wear but no catastrophic damage, blown-off turret, or burn marks, indicating it is intact and functional."
+          },
+          "inference_time_sec": 9.034,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV2.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle shows no visible catastrophic damage, wreckage, or burned-out components; its structure appears intact despite being in water.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle shows no visible catastrophic damage, wreckage, or burned-out components; its structure appears intact despite being in water."
+          },
+          "inference_time_sec": 9.644,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV3.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible catastrophic damage, burned-out sections, or blown-off components, indicating it is functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible catastrophic damage, burned-out sections, or blown-off components, indicating it is functional."
+          },
+          "inference_time_sec": 8.76,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV4.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle shows no catastrophic damage, burned-out sections, or blown-off components; it appears intact despite dirt and minor wear.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle shows no catastrophic damage, burned-out sections, or blown-off components; it appears intact despite dirt and minor wear."
+          },
+          "inference_time_sec": 9.481,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV5.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible catastrophic damage, burned-out sections, or blown-off components; it shows minor dirt/wear consistent with operational use.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible catastrophic damage, burned-out sections, or blown-off components; it shows minor dirt/wear consistent with operational use."
+          },
+          "inference_time_sec": 11.433,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV6.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle shows no catastrophic damage; its structure, turret, and hull are intact, with only minor dirt and mud, indicating it is functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle shows no catastrophic damage; its structure, turret, and hull are intact, with only minor dirt and mud, indicating it is functional."
+          },
+          "inference_time_sec": 10.793,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV7.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle shows no catastrophic damage, burned-out sections, or missing critical components like the turret; it appears intact and functional despite minor dirt or wear.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle shows no catastrophic damage, burned-out sections, or missing critical components like the turret; it appears intact and functional despite minor dirt or wear."
+          },
+          "inference_time_sec": 8.661,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV8.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no catastrophic damage, burnt-out sections, or blown-off components; it appears intact with minor wear consistent with operational use.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no catastrophic damage, burnt-out sections, or blown-off components; it appears intact with minor wear consistent with operational use."
+          },
+          "inference_time_sec": 8.115,
+          "vram_usage_mb": 6193,
+          "image_name": "IFV9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV9.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no visible catastrophic damage, burnt-out sections, or missing components. It appears intact with minor wear consistent with normal operation.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no visible catastrophic damage, burnt-out sections, or missing components. It appears intact with minor wear consistent with normal operation."
+          },
+          "inference_time_sec": 9.281,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT1.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no catastrophic damage, burned-out state, or obvious non-functionality; it appears intact and functional despite minor dirt or wear.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no catastrophic damage, burned-out state, or obvious non-functionality; it appears intact and functional despite minor dirt or wear."
+          },
+          "inference_time_sec": 10.634,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT10.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no visible damage such as blown turrets, burns, or catastrophic structural issues; it appears intact and functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no visible damage such as blown turrets, burns, or catastrophic structural issues; it appears intact and functional."
+          },
+          "inference_time_sec": 9.06,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT2.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no visible catastrophic damage, missing components, or signs of burning; its structure appears intact and functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no visible catastrophic damage, missing components, or signs of burning; its structure appears intact and functional."
+          },
+          "inference_time_sec": 8.587,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT3.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no signs of catastrophic damage, burning, or missing components; it appears intact and functional despite potential minor wear from the environment.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no signs of catastrophic damage, burning, or missing components; it appears intact and functional despite potential minor wear from the environment."
+          },
+          "inference_time_sec": 10.97,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT4.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no visible catastrophic damage, such as a blown-off turret, burns, or structural collapse. It appears intact with minor wear, indicating functionality.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no visible catastrophic damage, such as a blown-off turret, burns, or structural collapse. It appears intact with minor wear, indicating functionality."
+          },
+          "inference_time_sec": 9.005,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT5.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible catastrophic damage, blown turret, or burn marks; it shows only minor wear consistent with being in use.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible catastrophic damage, blown turret, or burn marks; it shows only minor wear consistent with being in use."
+          },
+          "inference_time_sec": 8.526,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT6.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears structurally intact with no visible catastrophic damage, blown turret, or burn marks. The smoke may indicate recent firing, but the vehicle itself shows no signs of being non-functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears structurally intact with no visible catastrophic damage, blown turret, or burn marks. The smoke may indicate recent firing, but the vehicle itself shows no signs of being non-functional."
+          },
+          "inference_time_sec": 9.474,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT7.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears structurally intact with no visible catastrophic damage, burned-out sections, or missing components indicating non-functionality.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears structurally intact with no visible catastrophic damage, burned-out sections, or missing components indicating non-functionality."
+          },
+          "inference_time_sec": 8.323,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT8.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank shows no visible catastrophic damage, burns, or missing components; it appears intact and functional.\"\n}",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank shows no visible catastrophic damage, burns, or missing components; it appears intact and functional."
+          },
+          "inference_time_sec": 7.726,
+          "vram_usage_mb": 6193,
+          "image_name": "MBT9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT9.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        }
+      ],
+      "summary": {
+        "total_images": 40,
+        "successful_inferences": 40,
+        "correct_answers": 38,
+        "accuracy_percent": 95.0,
+        "destroyed_correct": 18,
+        "destroyed_total": 20,
+        "destroyed_accuracy_percent": 90.0,
+        "operational_correct": 20,
+        "operational_total": 20,
+        "operational_accuracy_percent": 100.0,
+        "mean_inference_time_sec": 10.835,
+        "min_inference_time_sec": 7.532,
+        "max_inference_time_sec": 57.363
+      }
+    },
+    "gemma3:4b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a broken turret and significant damage to the hull, indicating it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a broken turret and significant damage to the hull, indicating it is destroyed."
+          },
+          "inference_time_sec": 1.863,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank1.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears largely intact with no obvious signs of catastrophic damage, fire, or missing parts. It seems functional despite its appearance.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears largely intact with no obvious signs of catastrophic damage, fire, or missing parts. It seems functional despite its appearance."
+          },
+          "inference_time_sec": 1.987,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank10.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with a blown-off turret, indicating catastrophic destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with a blown-off turret, indicating catastrophic destruction."
+          },
+          "inference_time_sec": 1.814,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank11.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank11.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with the turret missing, suggesting it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with the turret missing, suggesting it is destroyed."
+          },
+          "inference_time_sec": 1.796,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank12.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank12.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with the turret detached and significant overall destruction, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with the turret detached and significant overall destruction, indicating it is not operational."
+          },
+          "inference_time_sec": 1.886,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank13.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank13.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears largely intact with no obvious signs of catastrophic damage or destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears largely intact with no obvious signs of catastrophic damage or destruction."
+          },
+          "inference_time_sec": 1.802,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank14.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank14.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has sustained severe damage, including a blown-off turret and significant fire, indicating it is non-functional and destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has sustained severe damage, including a blown-off turret and significant fire, indicating it is non-functional and destroyed."
+          },
+          "inference_time_sec": 1.973,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank15.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank15.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, with the turret detached and the vehicle appearing burned out.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, with the turret detached and the vehicle appearing burned out."
+          },
+          "inference_time_sec": 1.847,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank16.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank16.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a detached turret, significant damage to the hull, and appears to be severely burned, indicating it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a detached turret, significant damage to the hull, and appears to be severely burned, indicating it is destroyed."
+          },
+          "inference_time_sec": 1.951,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank17.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank17.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has significant damage, including a blown-off turret and overall destruction of the vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has significant damage, including a blown-off turret and overall destruction of the vehicle."
+          },
+          "inference_time_sec": 1.863,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank18.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank18.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with the turret detached and significant deformation of the hull, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with the turret detached and significant deformation of the hull, indicating it is not operational."
+          },
+          "inference_time_sec": 1.918,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank19.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank19.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with a blown-off turret and significant overall destruction, indicating it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with a blown-off turret and significant overall destruction, indicating it is no longer operational."
+          },
+          "inference_time_sec": 1.941,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank2.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no obvious signs of damage or destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no obvious signs of damage or destruction."
+          },
+          "inference_time_sec": 1.811,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank20.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank20.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has significant damage, including a broken turret and overall severe destruction of the vehicle.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has significant damage, including a broken turret and overall severe destruction of the vehicle."
+          },
+          "inference_time_sec": 1.869,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank3.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a blown-off turret and appears severely damaged, indicating it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a blown-off turret and appears severely damaged, indicating it is destroyed."
+          },
+          "inference_time_sec": 1.87,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank4.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears largely intact with minimal visible damage. It does not appear to be destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears largely intact with minimal visible damage. It does not appear to be destroyed."
+          },
+          "inference_time_sec": 1.863,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank5.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with the turret blown off and significant visible destruction, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with the turret blown off and significant visible destruction, indicating it is not operational."
+          },
+          "inference_time_sec": 1.861,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank6.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with the turret detached and significant overall destruction, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with the turret detached and significant overall destruction, indicating it is not operational."
+          },
+          "inference_time_sec": 1.905,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank7.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with the turret detached and significant fire, indicating it is no longer functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with the turret detached and significant fire, indicating it is no longer functional."
+          },
+          "inference_time_sec": 1.882,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank8.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a detached turret, significant fire damage, and appears to be heavily damaged, indicating it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a detached turret, significant fire damage, and appears to be heavily damaged, indicating it is destroyed."
+          },
+          "inference_time_sec": 1.971,
+          "vram_usage_mb": 4717,
+          "image_name": "DestroyedTank9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank9.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with a broken turret and overall significant destruction, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with a broken turret and overall significant destruction, indicating it is not operational."
+          },
+          "inference_time_sec": 1.896,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV1.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a blown-off turret and significant damage to the body, indicating it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a blown-off turret and significant damage to the body, indicating it is destroyed."
+          },
+          "inference_time_sec": 1.904,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV10.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The vehicle appears intact with no obvious damage or destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The vehicle appears intact with no obvious damage or destruction."
+          },
+          "inference_time_sec": 1.773,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV2.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with the turret missing and the vehicle appears to be wrecked, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with the turret missing and the vehicle appears to be wrecked, indicating it is not operational."
+          },
+          "inference_time_sec": 1.92,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV3.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, with the turret missing and significant structural damage visible, indicating it is non-functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, with the turret missing and significant structural damage visible, indicating it is non-functional."
+          },
+          "inference_time_sec": 1.93,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV4.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a severely damaged turret and overall significant damage, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a severely damaged turret and overall significant damage, indicating it is not operational."
+          },
+          "inference_time_sec": 1.846,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV5.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a blown-off turret and significant damage to the vehicle's body, indicating it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a blown-off turret and significant damage to the vehicle's body, indicating it is destroyed."
+          },
+          "inference_time_sec": 1.936,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV6.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, with the turret missing and substantial debris surrounding it, indicating a catastrophic loss of function.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, with the turret missing and substantial debris surrounding it, indicating a catastrophic loss of function."
+          },
+          "inference_time_sec": 1.937,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV7.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a blown-off turret and significant damage to its body, indicating it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a blown-off turret and significant damage to its body, indicating it is no longer operational."
+          },
+          "inference_time_sec": 1.923,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV8.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with the turret detached and significant visible damage to the vehicle's body, indicating it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with the turret detached and significant visible damage to the vehicle's body, indicating it is destroyed."
+          },
+          "inference_time_sec": 1.981,
+          "vram_usage_mb": 4717,
+          "image_name": "IFV9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV9.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears to be intact with no visible damage, suggesting it is operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears to be intact with no visible damage, suggesting it is operational."
+          },
+          "inference_time_sec": 1.826,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT1.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has significant damage, including a missing turret and an overall wrecked appearance, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has significant damage, including a missing turret and an overall wrecked appearance, indicating it is not operational."
+          },
+          "inference_time_sec": 1.941,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT10.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a detached turret and significant damage to the body, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a detached turret and significant damage to the body, indicating it is not operational."
+          },
+          "inference_time_sec": 1.9,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT2.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears largely intact with no visible catastrophic damage. It is dirty, but functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears largely intact with no visible catastrophic damage. It is dirty, but functional."
+          },
+          "inference_time_sec": 1.87,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT3.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has significant damage, including a broken turret and apparent heavy destruction. It is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has significant damage, including a broken turret and apparent heavy destruction. It is not operational."
+          },
+          "inference_time_sec": 1.927,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT4.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a severely damaged turret and appears to be wrecked, indicating it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a severely damaged turret and appears to be wrecked, indicating it is no longer operational."
+          },
+          "inference_time_sec": 1.874,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT5.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has a detached turret and significant damage, indicating it is destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has a detached turret and significant damage, indicating it is destroyed."
+          },
+          "inference_time_sec": 1.836,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT6.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank has significant damage including a destroyed turret and substantial damage to the vehicle body.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank has significant damage including a destroyed turret and substantial damage to the vehicle body."
+          },
+          "inference_time_sec": 1.902,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT7.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with the turret missing and the vehicle appears to be wrecked.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with the turret missing and the vehicle appears to be wrecked."
+          },
+          "inference_time_sec": 1.879,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT8.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with a missing turret and significant overall destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with a missing turret and significant overall destruction."
+          },
+          "inference_time_sec": 1.828,
+          "vram_usage_mb": 4717,
+          "image_name": "MBT9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT9.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        }
+      ],
+      "summary": {
+        "total_images": 40,
+        "successful_inferences": 40,
+        "correct_answers": 19,
+        "accuracy_percent": 47.5,
+        "destroyed_correct": 16,
+        "destroyed_total": 20,
+        "destroyed_accuracy_percent": 80.0,
+        "operational_correct": 3,
+        "operational_total": 20,
+        "operational_accuracy_percent": 15.0,
+        "mean_inference_time_sec": 1.888,
+        "min_inference_time_sec": 1.773,
+        "max_inference_time_sec": 1.987
+      }
+    },
+    "gemma3:12b": {
+      "results": [
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, with the turret detached and the vehicle showing signs of burning and destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, with the turret detached and the vehicle showing signs of burning and destruction."
+          },
+          "inference_time_sec": 4.395,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank1.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with a significant fire and appears to be completely non-functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with a significant fire and appears to be completely non-functional."
+          },
+          "inference_time_sec": 4.349,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank10.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, with significant fire damage and a missing turret, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, with significant fire damage and a missing turret, indicating it is not operational."
+          },
+          "inference_time_sec": 4.756,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank11.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank11.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, burned out, and missing its turret, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, burned out, and missing its turret, indicating it is not operational."
+          },
+          "inference_time_sec": 4.731,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank12.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank12.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, burned out, and appears non-functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, burned out, and appears non-functional."
+          },
+          "inference_time_sec": 4.42,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank13.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank13.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, burned out, and missing its turret, indicating it is beyond repair and non-functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, burned out, and missing its turret, indicating it is beyond repair and non-functional."
+          },
+          "inference_time_sec": 4.949,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank14.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank14.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, with a missing turret and visible burn marks, indicating it is beyond repair and non-operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, with a missing turret and visible burn marks, indicating it is beyond repair and non-operational."
+          },
+          "inference_time_sec": 4.993,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank15.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank15.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, burned out, and missing its turret, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, burned out, and missing its turret, indicating it is not operational."
+          },
+          "inference_time_sec": 4.731,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank16.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank16.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, with the turret completely detached and extensive burn damage, indicating it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, with the turret completely detached and extensive burn damage, indicating it is no longer operational."
+          },
+          "inference_time_sec": 4.93,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank17.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank17.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged with a missing turret and appears to be burned out, indicating it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged with a missing turret and appears to be burned out, indicating it is no longer operational."
+          },
+          "inference_time_sec": 4.875,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank18.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank18.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, burned out, and appears to have lost its turret, indicating catastrophic failure and non-functionality.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, burned out, and appears to have lost its turret, indicating catastrophic failure and non-functionality."
+          },
+          "inference_time_sec": 5.087,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank19.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank19.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with a blown-off turret and signs of burning, indicating it is non-functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with a blown-off turret and signs of burning, indicating it is non-functional."
+          },
+          "inference_time_sec": 4.884,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank2.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, with the turret missing and significant fire damage visible, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, with the turret missing and significant fire damage visible, indicating it is not operational."
+          },
+          "inference_time_sec": 4.826,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank20.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank20.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with significant burn marks and a missing turret, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with significant burn marks and a missing turret, indicating it is not operational."
+          },
+          "inference_time_sec": 4.149,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank3.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, with a burned-out hull and turret missing, indicating it is beyond repair and not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, with a burned-out hull and turret missing, indicating it is beyond repair and not operational."
+          },
+          "inference_time_sec": 4.39,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank4.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank exhibits severe burn damage, a missing turret, and overall catastrophic structural failure indicating it is beyond repair and non-functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank exhibits severe burn damage, a missing turret, and overall catastrophic structural failure indicating it is beyond repair and non-functional."
+          },
+          "inference_time_sec": 4.447,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank5.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, burned, and missing its turret, indicating it is non-functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, burned, and missing its turret, indicating it is non-functional."
+          },
+          "inference_time_sec": 4.084,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank6.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, exhibiting signs of burning and catastrophic structural failure (missing turret).\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, exhibiting signs of burning and catastrophic structural failure (missing turret)."
+          },
+          "inference_time_sec": 3.929,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank7.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is severely damaged, burned out, and missing its turret, indicating it is beyond repair and non-functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is severely damaged, burned out, and missing its turret, indicating it is beyond repair and non-functional."
+          },
+          "inference_time_sec": 4.262,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank8.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank exhibits significant damage including a blown-off turret and signs of burning, indicating it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank exhibits significant damage including a blown-off turret and signs of burning, indicating it is no longer operational."
+          },
+          "inference_time_sec": 4.219,
+          "vram_usage_mb": 7565,
+          "image_name": "DestroyedTank9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/DestroyedTanks/DestroyedTank9.png",
+          "expected_answer": "DESTROYED",
+          "category": "DestroyedTanks",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with a blown-off turret and significant fire damage, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with a blown-off turret and significant fire damage, indicating it is not operational."
+          },
+          "inference_time_sec": 4.15,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV1.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact, with all major components present and no visible signs of catastrophic damage. While it may be dirty, it doesn't show signs of being destroyed.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact, with all major components present and no visible signs of catastrophic damage. While it may be dirty, it doesn't show signs of being destroyed."
+          },
+          "inference_time_sec": 4.811,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV10.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage or destruction. It shows signs of wear and dirt, but otherwise seems functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage or destruction. It shows signs of wear and dirt, but otherwise seems functional."
+          },
+          "inference_time_sec": 4.405,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV2.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with all major components present and no visible signs of catastrophic damage or destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with all major components present and no visible signs of catastrophic damage or destruction."
+          },
+          "inference_time_sec": 4.022,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV3.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with a collapsed turret and significant structural damage, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with a collapsed turret and significant structural damage, indicating it is not operational."
+          },
+          "inference_time_sec": 4.04,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV4.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank shows extensive damage, including a blown-off turret and significant fire damage, indicating it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank shows extensive damage, including a blown-off turret and significant fire damage, indicating it is no longer operational."
+          },
+          "inference_time_sec": 4.291,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV5.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage or destruction. It is dirty but seems functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage or destruction. It is dirty but seems functional."
+          },
+          "inference_time_sec": 4.166,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV6.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with a blown-off turret and significant structural damage, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with a blown-off turret and significant structural damage, indicating it is not operational."
+          },
+          "inference_time_sec": 4.257,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV7.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage or destruction. It shows signs of wear but is otherwise functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage or destruction. It shows signs of wear but is otherwise functional."
+          },
+          "inference_time_sec": 4.471,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV8.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank appears to be heavily damaged with significant fire and structural damage, suggesting it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank appears to be heavily damaged with significant fire and structural damage, suggesting it is no longer operational."
+          },
+          "inference_time_sec": 4.412,
+          "vram_usage_mb": 7565,
+          "image_name": "IFV9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/IFV/IFV9.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "IFV",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage or destruction. It's dirty, but otherwise seems functional.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage or destruction. It's dirty, but otherwise seems functional."
+          },
+          "inference_time_sec": 4.677,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT1.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT1.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, with a blown-off turret and significant signs of fire and destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, with a blown-off turret and significant signs of fire and destruction."
+          },
+          "inference_time_sec": 4.722,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT10.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT10.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The turret is completely separated from the chassis, indicating catastrophic damage and rendering the tank non-operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The turret is completely separated from the chassis, indicating catastrophic damage and rendering the tank non-operational."
+          },
+          "inference_time_sec": 4.716,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT2.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT2.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank's turret is completely detached and missing, indicating severe damage and rendering it non-operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank's turret is completely detached and missing, indicating severe damage and rendering it non-operational."
+          },
+          "inference_time_sec": 5.088,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT3.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT3.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is overturned and appears to have sustained significant damage, indicating it is no longer operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is overturned and appears to have sustained significant damage, indicating it is no longer operational."
+          },
+          "inference_time_sec": 4.797,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT4.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT4.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The turret is completely detached and the vehicle shows significant burn damage, indicating a catastrophic event rendering it non-operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The turret is completely detached and the vehicle shows significant burn damage, indicating a catastrophic event rendering it non-operational."
+          },
+          "inference_time_sec": 5.208,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT5.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT5.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with no visible signs of catastrophic damage or destruction. It seems to be in a relatively clean condition, suggesting it is operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with no visible signs of catastrophic damage or destruction. It seems to be in a relatively clean condition, suggesting it is operational."
+          },
+          "inference_time_sec": 5.275,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT6.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT6.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged, with a blown-off turret and visible destruction, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged, with a blown-off turret and visible destruction, indicating it is not operational."
+          },
+          "inference_time_sec": 4.862,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT7.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT7.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"OPERATIONAL\",\n    \"reasoning\": \"The tank appears intact with its turret and tracks present. While it may be dirty, there are no visible signs of catastrophic damage or destruction.\"\n}\n```",
+          "parsed_response": {
+            "answer": "OPERATIONAL",
+            "reasoning": "The tank appears intact with its turret and tracks present. While it may be dirty, there are no visible signs of catastrophic damage or destruction."
+          },
+          "inference_time_sec": 5.646,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT8.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT8.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": true
+        },
+        {
+          "success": true,
+          "raw_response": "```json\n{\n    \"answer\": \"DESTROYED\",\n    \"reasoning\": \"The tank is heavily damaged with a missing turret and significant fire damage, indicating it is not operational.\"\n}\n```",
+          "parsed_response": {
+            "answer": "DESTROYED",
+            "reasoning": "The tank is heavily damaged with a missing turret and significant fire damage, indicating it is not operational."
+          },
+          "inference_time_sec": 4.969,
+          "vram_usage_mb": 7565,
+          "image_name": "MBT9.png",
+          "image_path": "/home/jesse/Desktop/ResearchZeroShotVLM/output/MBT/MBT9.png",
+          "expected_answer": "OPERATIONAL",
+          "category": "MBT",
+          "is_correct": false
+        }
+      ],
+      "summary": {
+        "total_images": 40,
+        "successful_inferences": 40,
+        "correct_answers": 28,
+        "accuracy_percent": 70.0,
+        "destroyed_correct": 20,
+        "destroyed_total": 20,
+        "destroyed_accuracy_percent": 100.0,
+        "operational_correct": 8,
+        "operational_total": 20,
+        "operational_accuracy_percent": 40.0,
+        "mean_inference_time_sec": 4.61,
+        "min_inference_time_sec": 3.929,
+        "max_inference_time_sec": 5.646
+      }
+    }
+  }
+}
