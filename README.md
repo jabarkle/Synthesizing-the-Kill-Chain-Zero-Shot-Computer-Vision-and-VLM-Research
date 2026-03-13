@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="overviewTake2.jpg" alt="Framework Overview" width="100%"/>
+  <img src="overviewTake2.jpg" alt="Framework Overview" width="60%"/>
 </p>
 
 <h1 align="center">Synthesizing the Kill Chain:<br/>A Zero-Shot Framework for Target Verification<br/>and Tactical Reasoning on the Edge</h1>
