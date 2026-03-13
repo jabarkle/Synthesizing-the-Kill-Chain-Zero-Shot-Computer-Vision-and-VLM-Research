@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2602.13324">📄 Paper (arXiv)</a>
+</p>
+
+<p align="center">
   <a href="#overview">Overview</a> &bull;
   <a href="#key-results">Key Results</a> &bull;
   <a href="#getting-started">Getting Started</a> &bull;
