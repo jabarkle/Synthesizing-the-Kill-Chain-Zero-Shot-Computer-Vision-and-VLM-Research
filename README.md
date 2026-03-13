@@ -1,12 +1,12 @@
-<p align="center">
-  <img src="overviewTake2.jpg" alt="Framework Overview" width="60%"/>
-</p>
-
 <h1 align="center">Synthesizing the Kill Chain:<br/>A Zero-Shot Framework for Target Verification<br/>and Tactical Reasoning on the Edge</h1>
 
 <p align="center">
   <strong>Jesse Barkley</strong>, <strong>Abraham George</strong>, and <strong>Amir Barati Farimani</strong><br/>
   Department of Mechanical Engineering, Carnegie Mellon University
+</p>
+
+<p align="center">
+  <img src="overviewTake2.jpg" alt="Framework Overview" width="60%"/>
 </p>
 
 <p align="center">
